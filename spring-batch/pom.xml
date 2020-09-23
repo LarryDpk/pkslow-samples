@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-batch-simple</module>
+        <module>remote-partition-local</module>
     </modules>
 
 
