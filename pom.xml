@@ -11,6 +11,7 @@
     <modules>
         <module>influxdb</module>
         <module>springboot-influxdb</module>
+        <module>spring-batch</module>
     </modules>
 
     <properties>

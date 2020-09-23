@@ -11,3 +11,7 @@ samples for https://www.pkslow.com/archives/influxdb-introduction
 
 ## springboot-influxdb
 Sample for https://www.pkslow.com/archives/springboot-monitored-by-influxdb-grafana
+
+## spring-batch/spring-batch-simple
+Sample for https://www.pkslow.com/archives/spring-batch-introduction
+Need to update the config `pkslow.outputFilename` accordingly.
