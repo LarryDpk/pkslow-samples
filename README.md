@@ -21,3 +21,6 @@ Need to update the config `pkslow.outputFilename` accordingly.
 Sample for https://www.pkslow.com/archives/spring-batch-remote-partition-local-jar
 
 Need to startup a H2 database.
+
+## protobuf
+Sample for https://www.pkslow.com/archives/protobuf-introduction
