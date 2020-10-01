@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_package = "com.pkslow.proto";
+option java_generate_equals_and_hash = true;
+option java_outer_classname = "PkslowWebSite";
+
+message WebSite {
+  string name = 1;
+  string link = 2;
+  int32 age = 3;
+
+  message Server {
+    string hostname = 1;
+    int32 port = 2;
+  }
+
+  Server server = 4;
+}

@@ -2,4 +2,4 @@ spring:
   application:
     name: spring-batch-simple
 pkslow:
-  outputFilename: /Users/pkslow/IdeaProjects/pkslow-samples/spring-batch/spring-batch-simple/outputData.csv
+  outputFilename: /Users/larry/IdeaProjects/pkslow-samples/spring-batch/spring-batch-simple/outputData.csv
