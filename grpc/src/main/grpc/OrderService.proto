@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.pkslow.grpc.gen";
+
+message OrderRequest {
+  int32 orderId = 1;
+}
+
+message OrderRespone {
+  int32 orderId = 1;
+  int32 price = 2;
+  string name = 3;
+}
+
+service OrderService {
+  rpc getOrder(OrderRequest) returns (OrderRespone);
+}

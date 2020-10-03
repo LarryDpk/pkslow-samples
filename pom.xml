@@ -13,6 +13,7 @@
         <module>springboot-influxdb</module>
         <module>spring-batch</module>
         <module>protobuf</module>
+        <module>grpc</module>
     </modules>
 
     <properties>
