@@ -3,7 +3,7 @@ samples for www.pkslow.com
 
 Build Package:
 ```shell script
-mvn clean package
+mvn clean install
 ```
 
 ## influxdb
