@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>grpc</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>grpc-order-proto</module>
+        <module>grpc-order-server</module>
+        <module>grpc-order-client</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -29,8 +35,12 @@
         </dependency>
     </dependencies>
 
+
+
     <properties>
         <io.grpc.version>1.32.1</io.grpc.version>
+        <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
+        <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
     </properties>
 
 

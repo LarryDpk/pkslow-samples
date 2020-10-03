@@ -6,7 +6,7 @@ import com.pkslow.grpc.gen.OrderServiceGrpc;
 public class OrderServiceImpl extends OrderServiceGrpc.OrderServiceImplBase {
     @Override
     public void getOrder(com.pkslow.grpc.gen.OrderRequest request,
-                         io.grpc.stub.StreamObserver<com.pkslow.grpc.gen.OrderRespone> responseObserver) {
+                         io.grpc.stub.StreamObserver<OrderRespone> responseObserver) {
         System.out.println("Request from Client: " + request);
 
         int orderId = request.getOrderId();
