@@ -15,6 +15,7 @@
         <module>protobuf</module>
         <module>grpc</module>
         <module>liquibase</module>
+        <module>spring-cloud</module>
     </modules>
 
     <properties>

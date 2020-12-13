@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: pkslow
+        uri: https://www.pkslow.com
+        predicates:
+        - Path=/pkslow/**
+        filters:
+        - RewritePath=/pkslow(?<segment>.*), /$\{segment}
+
