@@ -34,3 +34,4 @@ Sample for https://www.pkslow.com/archives/liquibase
 ## spring-cloud
 Sample for Spring Cloud:
 - https://www.pkslow.com/archives/spring-cloud-gateway-introduction
+- https://www.pkslow.com/archives/spring-custom-convert
