@@ -32,7 +32,7 @@ public class UaaServer {
         final File tempUaaWarFile = new File(tempDirectory, "uaa.war");
 
         FileCopyUtils.copy(
-                new ClassPathResource("uaa.yml").getInputStream(),
+                new ClassPathResource("uaa-postgresql-ldap.yml").getInputStream(),
                 new FileOutputStream(tempUaaYmlFile));
 
         FileCopyUtils.copy(

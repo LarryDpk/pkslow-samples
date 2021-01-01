@@ -17,6 +17,7 @@
         <module>rest-service</module>
         <module>cloudfoundry-uaa-server</module>
         <module>spring-cloud-data-flow</module>
+        <module>ldap-server</module>
     </modules>
 
 
