@@ -16,6 +16,7 @@
         <module>grpc</module>
         <module>liquibase</module>
         <module>spring-cloud</module>
+        <module>kubernetes</module>
     </modules>
 
     <properties>
