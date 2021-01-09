@@ -40,3 +40,6 @@ Sample for Spring Cloud:
 - https://www.pkslow.com/archives/spring-cloud-dataflow-uaa
 - https://www.pkslow.com/archives/spring-cloud-dataflow-uaa-ldap
 
+## kubernetes
+### kubernetes-client-fabric8io
+- https://www.pkslow.com/archives/kubernetes-client-fabric8io
