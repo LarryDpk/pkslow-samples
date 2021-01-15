@@ -9,3 +9,5 @@ target/
 spring-cloud-data-flow2
 data-flow-server.jar
 uaa.war
+
+*.DS_Store
