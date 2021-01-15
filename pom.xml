@@ -18,8 +18,6 @@
         <module>spring-cloud</module>
         <module>kubernetes</module>
         <module>spring-boot</module>
-        <module>spring-boot/spring-data-jpa-audit</module>
-        <module>spring-boot</module>
     </modules>
 
     <properties>
