@@ -50,4 +50,5 @@ Sample for Spring Cloud:
 
 ## spring-boot
 ### spring-data-jpa-audit
-[Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)
+- [Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)
+- [Spring MVC获取HTTP请求头两种方式](https://www.pkslow.com/archives/spring-mvc-get-headers)
