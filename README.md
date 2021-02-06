@@ -49,8 +49,8 @@ Sample for Spring Cloud:
 - [最好的Kubernetes客户端Java库fabric8io，快来自定义你的操作](https://www.pkslow.com/archives/kubernetes-client-fabric8io)
 
 ## spring-boot
-### spring-security-jwt
-- [Bean初始化操作initMethod、@PostConstruct和InitializingBean.](https://www.pkslow.com/archives/bean-initializing)
+### springboot-common
+- [Bean初始化操作initMethod、@PostConstruct和InitializingBean](https://www.pkslow.com/archives/bean-initializing)
 
 ### spring-data-jpa-audit
 - [Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)
