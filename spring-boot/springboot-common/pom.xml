@@ -3,20 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>pkslow-samples</artifactId>
+        <artifactId>spring-boot</artifactId>
         <groupId>com.pkslow</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>springboot-common</module>
-        <module>spring-data-jpa-audit</module>
-        <module>spring-security-jwt</module>
-<!--        <module>spring-security-jwt-webflux</module>-->
-    </modules>
+    <groupId>com.pkslow.springboot</groupId>
+    <artifactId>springboot-common</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>
