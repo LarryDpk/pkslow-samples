@@ -52,3 +52,6 @@ Sample for Spring Cloud:
 ### spring-data-jpa-audit
 - [Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)
 - [Spring MVC获取HTTP请求头的两种方式](https://www.pkslow.com/archives/spring-mvc-get-headers)
+
+### spring-security-jwt
+- [Springboot集成Spring Security实现JWT认证](https://www.pkslow.com/archives/springboot-spring-security-jwt-web)
