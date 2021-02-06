@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-data-jpa-audit</module>
+        <module>spring-security-jwt</module>
     </modules>
 
 

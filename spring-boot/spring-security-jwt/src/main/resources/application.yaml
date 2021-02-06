@@ -1,0 +1,6 @@
+pkslow:
+  jwt:
+    secretKey: my-key
+    validityInMs: 600000
+server:
+  port: 8080
