@@ -15,7 +15,7 @@
         <module>springboot-common</module>
         <module>spring-data-jpa-audit</module>
         <module>spring-security-jwt</module>
-<!--        <module>spring-security-jwt-webflux</module>-->
+        <module>spring-security-jwt-webflux</module>
     </modules>
 
 

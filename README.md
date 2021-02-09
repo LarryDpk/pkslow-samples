@@ -58,3 +58,6 @@ Sample for Spring Cloud:
 
 ### spring-security-jwt
 - [Springboot集成Spring Security实现JWT认证](https://www.pkslow.com/archives/springboot-spring-security-jwt-web)
+
+### spring-security-jwt-webflux
+- [Springboot WebFlux集成Spring Security实现JWT认证](https://www.pkslow.com/archives/springboot-spring-security-jwt-webflux)
