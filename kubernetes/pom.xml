@@ -11,9 +11,14 @@
 
     <artifactId>kubernetes</artifactId>
     <packaging>pom</packaging>
+
+    <properties>
+        <docker.skip>true</docker.skip>
+    </properties>
+
     <modules>
         <module>kubernetes-client-fabric8io</module>
+        <module>configmap-springboot</module>
     </modules>
-
 
 </project>

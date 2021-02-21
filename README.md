@@ -48,6 +48,9 @@ Sample for Spring Cloud:
 ### kubernetes-client-fabric8io
 - [最好的Kubernetes客户端Java库fabric8io，快来自定义你的操作](https://www.pkslow.com/archives/kubernetes-client-fabric8io)
 
+### configmap-springboot
+- [Kubernetes ConfigMap详解，多种方式创建、多种方式使用](https://www.pkslow.com/archives/kubernetes-configmap)
+
 ## spring-boot
 ### springboot-common
 - [Bean初始化操作initMethod、@PostConstruct和InitializingBean](https://www.pkslow.com/archives/bean-initializing)

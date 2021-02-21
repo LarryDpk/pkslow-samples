@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pkslow-yaml
+data:
+  PKSLOW_AGE: "18"
+  PKSLOW_NAME: Larry
+  PKSLOW_WEBSITE: www.pkslow.com
+  application-uat.yaml: |-
+    server:
+      port: 8080
+    pkslow:
+      name: LarryDpk
+      age: 20
+      webSite: https://www.pkslow.com
+  application.yaml: |-
+    server:
+      port: 8080
+    pkslow:
+      name: Larry
+      age: 18
+      webSite: www.pkslow.com

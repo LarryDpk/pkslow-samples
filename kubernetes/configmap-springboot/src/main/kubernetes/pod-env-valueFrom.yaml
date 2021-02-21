@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pkslow-env-value-from
+spec:
+  containers:
+    - name: test-container
+      image: busybox
+      command: [ "/bin/sh", "-c", "env" ]
+      env:
+        - name: PKSLOW_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: pkslow-yaml
+              key: PKSLOW_NAME
+        - name: PKSLOW_WEBSITE
+          valueFrom:
+            configMapKeyRef:
+              name: pkslow-yaml
+              key: PKSLOW_WEBSITE
+  restartPolicy: Never

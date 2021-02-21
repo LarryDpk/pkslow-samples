@@ -1,0 +1,6 @@
+server:
+  port: 8080
+pkslow:
+  name: Larry
+  age: 18
+  webSite: www.pkslow.com

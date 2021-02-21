@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pkslow-mount-volume
+spec:
+  volumes:
+    - name: config-volume
+      configMap:
+        name: pkslow-yaml
+        items:
+          - key: application.yaml
+            path: app.yaml
+          - key: application-uat.yaml
+            path: uat.yaml
+  containers:
+    - name: test-container
+      image: busybox
+      command: [ "/bin/sh", "-c", "sleep 1000000" ]
+      imagePullPolicy: IfNotPresent
+      volumeMounts:
+        - name: config-volume
+          mountPath: /data/config
+  restartPolicy: Never
