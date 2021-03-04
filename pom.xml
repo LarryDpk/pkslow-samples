@@ -18,6 +18,7 @@
         <module>spring-cloud</module>
         <module>kubernetes</module>
         <module>spring-boot</module>
+        <module>docker</module>
     </modules>
 
     <properties>
