@@ -19,6 +19,7 @@
         <module>kubernetes</module>
         <module>spring-boot</module>
         <module>docker</module>
+        <module>java-basic</module>
     </modules>
 
     <properties>

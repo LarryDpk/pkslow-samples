@@ -13,6 +13,10 @@ mvn clean install
 ## influxdb
 [InfluxDB入门及使用，一个优秀的时序数据库](https://www.pkslow.com/archives/influxdb-introduction)
 
+## java-basic
+### pl-pojo-tester
+[用pl.pojo.tester测试Pojo类，提高测试覆盖率](https://www.pkslow.com/archives/pl-pojo-tester)
+
 ## springboot-influxdb
 [用InfluxDB+Grafana监控Springboot应用](https://www.pkslow.com/archives/springboot-monitored-by-influxdb-grafana)
 
