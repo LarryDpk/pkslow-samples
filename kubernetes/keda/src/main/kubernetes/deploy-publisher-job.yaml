@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: rabbitmq-publish
+spec:
+  template:
+    spec:
+      containers:
+        - name: rabbitmq-client
+          image: jeffhollan/rabbitmq-client:dev
+          imagePullPolicy: Always
+          command: ["send",  "amqp://user:YNsEayx8w2@azure-rabbitmq.default.svc.cluster.local:5672", "300"]
+      restartPolicy: Never
+  backoffLimit: 4

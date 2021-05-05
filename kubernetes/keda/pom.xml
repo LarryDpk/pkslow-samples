@@ -3,23 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>pkslow-samples</artifactId>
+        <artifactId>kubernetes</artifactId>
         <groupId>com.pkslow</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>kubernetes</artifactId>
-    <packaging>pom</packaging>
+    <groupId>com.pkslow.kubernetes</groupId>
+    <artifactId>keda</artifactId>
 
-    <properties>
-        <docker.skip>true</docker.skip>
-    </properties>
-
-    <modules>
-        <module>kubernetes-client-fabric8io</module>
-        <module>configmap-springboot</module>
-        <module>keda</module>
-    </modules>
 
 </project>

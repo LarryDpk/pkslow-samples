@@ -1,0 +1,65 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: rabbitmq-consumer-secret
+data:
+  RabbitMqHost: YW1xcDovL3VzZXI6WU5zRWF5eDh3MkBhenVyZS1yYWJiaXRtcS5kZWZhdWx0LnN2Yy5jbHVzdGVyLmxvY2FsOjU2NzI=
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rabbitmq-consumer
+  namespace: default
+  labels:
+    app: rabbitmq-consumer
+spec:
+  selector:
+    matchLabels:
+      app: rabbitmq-consumer
+  template:
+    metadata:
+      labels:
+        app: rabbitmq-consumer
+    spec:
+      containers:
+        - name: rabbitmq-consumer
+          image: jeffhollan/rabbitmq-client:dev
+          imagePullPolicy: Always
+          command:
+            - receive
+          args:
+            - "amqp://user:YNsEayx8w2@azure-rabbitmq.default.svc.cluster.local:5672"
+
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: rabbitmq-consumer
+  namespace: default
+spec:
+  scaleTargetRef:
+    name: rabbitmq-consumer
+  pollingInterval: 5 # Optional. Default: 30 seconds
+  cooldownPeriod: 30 # Optional. Default: 300 seconds
+  maxReplicaCount: 30 # Optional. Default: 100
+  triggers:
+    - type: rabbitmq
+      metadata:
+        queueName: hello
+        queueLength: "5"
+      authenticationRef:
+        name: rabbitmq-consumer-trigger
+
+---
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: rabbitmq-consumer-trigger
+  namespace: default
+spec:
+  secretTargetRef:
+    - parameter: host
+      name: rabbitmq-consumer-secret
+      key: RabbitMqHost
+---
