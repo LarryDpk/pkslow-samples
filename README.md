@@ -44,6 +44,9 @@ Sample for Spring Cloud:
 - [Spring自定义转换类，让@Value更方便](https://www.pkslow.com/archives/spring-custom-convert)
 - [在Spring WebFlux的任何地方获取Request对象](https://www.pkslow.com/archives/spring-webflux-get-request)
 
+### spring-cloud-stream
+[整合Spring Cloud Stream Binder与RabbitMQ进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-rabbit)
+
 
 ### spring-cloud-data-flow & cloudfoundry-uaa-server & ldap-server
 

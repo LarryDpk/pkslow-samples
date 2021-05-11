@@ -19,6 +19,7 @@
         <module>spring-cloud-data-flow</module>
         <module>ldap-server</module>
         <module>webflux-service</module>
+        <module>spring-cloud-stream</module>
     </modules>
 
 

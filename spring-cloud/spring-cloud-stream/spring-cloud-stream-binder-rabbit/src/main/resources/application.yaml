@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: pkslowSource;pkslowSink
+      bindings:
+        pkslowSource-out-0:
+         destination: pkslow-topic
+        pkslowSink-in-0:
+          destination: pkslow-topic
+      poller:
+        fixed-delay: 500
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: pkslow
+    password: 123456
