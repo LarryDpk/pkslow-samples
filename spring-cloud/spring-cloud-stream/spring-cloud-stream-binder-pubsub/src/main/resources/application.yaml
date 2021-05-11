@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: pkslowSource;pkslowSink
+      bindings:
+        pkslowSource-out-0:
+         destination: pkslow-topic
+        pkslowSink-in-0:
+          destination: pkslow-topic
+      poller:
+        fixed-delay: 500
+    gcp:
+#      credentials:
+#        location: file:/xxx.json
+      pubsub:
+        emulator-host: localhost:8511
+        project-id: pkslow-prj

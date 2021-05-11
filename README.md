@@ -46,6 +46,8 @@ Sample for Spring Cloud:
 
 ### spring-cloud-stream
 [整合Spring Cloud Stream Binder与RabbitMQ进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-rabbit)
+[整合Spring Cloud Stream Binder与GCP Pubsub进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-pubsub)
+
 
 
 ### spring-cloud-data-flow & cloudfoundry-uaa-server & ldap-server
