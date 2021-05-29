@@ -6,6 +6,10 @@ Build Package:
 mvn clean install
 ```
 
+
+## cloud
+[Terraform入门教程，示例展示管理Docker和Kubernetes资源](https://www.pkslow.com/archives/terraform)
+
 ## docker
 ### postgresql-multiple-databases
 - [Docker启动PostgreSQL时创建多个数据库](https://www.pkslow.com/archives/docker-postgresql-multiple-databases)
@@ -16,6 +20,9 @@ mvn clean install
 ## java-basic
 ### pl-pojo-tester
 [用pl.pojo.tester测试Pojo类，提高测试覆盖率](https://www.pkslow.com/archives/pl-pojo-tester)
+
+### java-proxy
+[Java如何设置代理来访问受限资源](https://www.pkslow.com/archives/java-proxy)
 
 ## springboot-influxdb
 [用InfluxDB+Grafana监控Springboot应用](https://www.pkslow.com/archives/springboot-monitored-by-influxdb-grafana)

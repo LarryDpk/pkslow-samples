@@ -20,6 +20,7 @@
         <module>spring-boot</module>
         <module>docker</module>
         <module>java-basic</module>
+        <module>cloud</module>
     </modules>
 
     <properties>
