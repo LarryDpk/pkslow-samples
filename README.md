@@ -92,3 +92,15 @@ Sample for Spring Cloud:
 
 ### spring-security-jwt-webflux
 - [Springboot WebFlux集成Spring Security实现JWT认证](https://www.pkslow.com/archives/springboot-spring-security-jwt-webflux)
+
+# Thanks to JetBrains
+
+<h3 align="center">JetBrains</h3>
+
+<p align="center">
+  <a href="https://www.jetbrains.com/?from=pkslow-samples">
+    <img width="260px" src="jetbrains-variant-4.png">
+  </a>
+</p>
+
+> Thanks JetBrains to support the project providing such great IDE.
