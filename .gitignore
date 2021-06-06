@@ -15,3 +15,5 @@ uaa.war
 .settings
 .project
 .classpath
+
+.terraform

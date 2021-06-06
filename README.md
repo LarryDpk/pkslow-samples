@@ -10,6 +10,14 @@ mvn clean install
 ## cloud
 [Terraform入门教程，示例展示管理Docker和Kubernetes资源](https://www.pkslow.com/archives/terraform)
 
+[Terraform插件Provider管理，搜索、定义、下载](https://www.pkslow.com/archives/terraform-provider)
+
+[Terraform状态State管理，让变更有记录](https://www.pkslow.com/archives/terraform-state)
+
+[Terraform模块Module管理，聚合资源的抽取与复用](https://www.pkslow.com/archives/terraform-module)
+
+
+
 ## docker
 ### postgresql-multiple-databases
 - [Docker启动PostgreSQL时创建多个数据库](https://www.pkslow.com/archives/docker-postgresql-multiple-databases)
