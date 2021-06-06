@@ -17,3 +17,4 @@ uaa.war
 .classpath
 
 .terraform
+.terraform.lock.hcl

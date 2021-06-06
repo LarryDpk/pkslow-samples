@@ -6,8 +6,8 @@ module "pkslow-nginx" {
     source = "./nginx-kubernetes"
     namespace = "pkslow"
     applicationName = "pkslow-nginx"
-    image = "nginx:1.19.5"
-    replicas = 3
-    nodePort = 30301
+    image = var.image
+    replicas = var.replicas
+    nodePort = var.nodePort
 }
 
