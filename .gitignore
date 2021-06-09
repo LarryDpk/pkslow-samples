@@ -18,3 +18,4 @@ uaa.war
 
 .terraform
 .terraform.lock.hcl
+terraform.tfstate*
