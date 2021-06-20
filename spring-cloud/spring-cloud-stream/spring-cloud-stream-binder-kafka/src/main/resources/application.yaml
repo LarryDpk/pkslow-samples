@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: pkslowSource;pkslowSink
+      bindings:
+        pkslowSource-out-0:
+         destination: pkslow-topic
+        pkslowSink-in-0:
+          destination: pkslow-topic
+      poller:
+        fixed-delay: 500
+      kafka:
+        binder:
+          brokers: localhost:9092
+          auto-create-topics: true
+          required-acks: 1
