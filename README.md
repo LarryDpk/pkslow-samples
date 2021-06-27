@@ -53,6 +53,9 @@ Need to startup a H2 database.
 ## liquibase
 [通过Maven用LiquiBase对数据库变更进行版本控制](https://www.pkslow.com/archives/liquibase)
 
+## other
+[示例讲解PostgreSQL表分区的三种方式](https://www.pkslow.com/archives/postgresql-partitioning)
+
 ## spring-cloud
 Sample for Spring Cloud:
 - [Spring Cloud Gateway简单入门，强大的微服务网关](https://www.pkslow.com/archives/spring-cloud-gateway-introduction)
