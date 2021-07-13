@@ -22,7 +22,6 @@
         <module>java-basic</module>
         <module>cloud</module>
         <module>other</module>
-        <module>other/postgresql</module>
     </modules>
 
     <properties>
