@@ -1,0 +1,6 @@
+environment: dev
+server:
+  port: 8080
+pkslow:
+  name: Larry Deng
+  age: 1

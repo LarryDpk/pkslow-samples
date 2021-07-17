@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pkslow-config-{{ .Values.environment }}
+  namespace: default
+data:
+  application.yaml: |-
+    server:
+      port: {{ .Values.server.port }}
+    pkslow:
+      name: {{ .Values.pkslow.name }}
+      age: {{ .Values.pkslow.age }}
+    {{- if .Values.pkslow.webSite }}
+      webSite: {{ .Values.pkslow.webSite }}
+    {{- end }}

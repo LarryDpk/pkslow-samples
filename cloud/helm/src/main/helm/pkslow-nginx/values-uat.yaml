@@ -1,0 +1,7 @@
+environment: uat
+server:
+  port: 8080
+pkslow:
+  name: Larry Deng
+  age: 2
+  webSite: https://uat.pkslow.com

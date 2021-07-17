@@ -1,0 +1,7 @@
+environment: prod
+server:
+  port: 80
+pkslow:
+  name: Larry Deng
+  age: 2
+  webSite: https://prod.pkslow.com
