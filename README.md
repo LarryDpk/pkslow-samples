@@ -18,6 +18,8 @@ mvn clean install
 
 [Helm Template初体验，方便管理多环境](https://www.pkslow.com/archives/helm-template)
 
+[K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
+
 
 
 
