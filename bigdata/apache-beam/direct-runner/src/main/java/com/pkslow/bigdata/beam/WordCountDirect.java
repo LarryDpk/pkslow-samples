@@ -19,7 +19,7 @@ public class WordCountDirect {
         PipelineOptions options = PipelineOptionsFactory.create();
         Pipeline pipeline = Pipeline.create(options);
         PCollection<String> lines = pipeline.apply("read from file",
-                TextIO.read().from("/Users/larry/IdeaProjects/pkslow-samples/bigdata/apache-beam/direct-runner/src/main/resources/pkslow.txt"));
+                TextIO.read().from("bigdata/apache-beam/direct-runner/src/main/resources/pkslow.txt"));
 
         PCollection<List<String>> wordList = lines.apply(MapElements.via(new SimpleFunction<String, List<String>>() {
             @Override
