@@ -17,6 +17,7 @@
         <module>spring-security-jwt</module>
         <module>spring-security-jwt-webflux</module>
         <module>spring-data-cassandra</module>
+        <module>springboot-influxdb</module>
     </modules>
 
 
