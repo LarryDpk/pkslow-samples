@@ -41,6 +41,10 @@ mvn clean install
 ### protobuf
 [Protobuf入门与使用示例，高性能的序列化框架](https://www.pkslow.com/archives/protobuf-introduction)
 
+### liquibase
+[通过Maven用LiquiBase对数据库变更进行版本控制](https://www.pkslow.com/archives/liquibase)
+
+
 ## spring-batch/spring-batch-simple
 [通过例子讲解Spring Batch入门，优秀的批处理框架](https://www.pkslow.com/archives/spring-batch-introduction)
 Need to update the config `pkslow.outputFilename` accordingly.
@@ -51,9 +55,6 @@ Need to startup a H2 database.
 
 ## grpc
 [远程过程调用框架gRPC入门及Java示例代码](https://www.pkslow.com/archives/grpc-introduction)
-
-## liquibase
-[通过Maven用LiquiBase对数据库变更进行版本控制](https://www.pkslow.com/archives/liquibase)
 
 ## other
 [示例讲解PostgreSQL表分区的三种方式](https://www.pkslow.com/archives/postgresql-partitioning)

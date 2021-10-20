@@ -16,6 +16,7 @@
         <module>java-proxy</module>
         <module>protobuf</module>
         <module>influxdb</module>
+        <module>liquibase</module>
     </modules>
 
 
