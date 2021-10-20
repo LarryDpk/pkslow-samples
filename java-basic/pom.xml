@@ -17,6 +17,7 @@
         <module>protobuf</module>
         <module>influxdb</module>
         <module>liquibase</module>
+        <module>grpc</module>
     </modules>
 
 
