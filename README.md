@@ -27,10 +27,11 @@ mvn clean install
 ### postgresql-multiple-databases
 - [Docker启动PostgreSQL时创建多个数据库](https://www.pkslow.com/archives/docker-postgresql-multiple-databases)
 
-## influxdb
+## java-basic
+
+### influxdb
 [InfluxDB入门及使用，一个优秀的时序数据库](https://www.pkslow.com/archives/influxdb-introduction)
 
-## java-basic
 ### pl-pojo-tester
 [用pl.pojo.tester测试Pojo类，提高测试覆盖率](https://www.pkslow.com/archives/pl-pojo-tester)
 

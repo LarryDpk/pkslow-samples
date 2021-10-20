@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>influxdb</module>
         <module>spring-batch</module>
         <module>grpc</module>
         <module>liquibase</module>
