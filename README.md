@@ -44,6 +44,8 @@ mvn clean install
 ### liquibase
 [通过Maven用LiquiBase对数据库变更进行版本控制](https://www.pkslow.com/archives/liquibase)
 
+### grpc
+[远程过程调用框架gRPC入门及Java示例代码](https://www.pkslow.com/archives/grpc-introduction)
 
 ## spring-batch/spring-batch-simple
 [通过例子讲解Spring Batch入门，优秀的批处理框架](https://www.pkslow.com/archives/spring-batch-introduction)
@@ -52,9 +54,6 @@ Need to update the config `pkslow.outputFilename` accordingly.
 ## spring-batch/remote-partition-local
 [Spring Batch远程分区的本地Jar包模式](https://www.pkslow.com/archives/spring-batch-remote-partition-local-jar)
 Need to startup a H2 database.
-
-## grpc
-[远程过程调用框架gRPC入门及Java示例代码](https://www.pkslow.com/archives/grpc-introduction)
 
 ## other
 [示例讲解PostgreSQL表分区的三种方式](https://www.pkslow.com/archives/postgresql-partitioning)
