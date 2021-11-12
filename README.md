@@ -95,7 +95,8 @@ Sample for Spring Cloud:
 - [Bean初始化操作initMethod、@PostConstruct和InitializingBean](https://www.pkslow.com/archives/bean-initializing)
 - [使用SpringBootCondition更自由地定义条件化配置](https://www.pkslow.com/archives/springbootcondition)
 - [用ApplicationContextRunner测试配置类](https://www.pkslow.com/archives/test-config-class-with-applicationcontextrunner)
-    
+- [Spring Boot通过Actuator显示git和build的信息](https://www.pkslow.com/archives/springboot-actuator-git-build-info)
+
 
 ### spring-data-jpa-audit
 - [Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)

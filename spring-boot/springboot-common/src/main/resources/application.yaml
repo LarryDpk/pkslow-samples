@@ -6,3 +6,11 @@ pkslow:
   condition:
     max: 1000
     min: 50
+management:
+  info:
+    git:
+      mode: full
+  endpoints:
+    web:
+      exposure:
+        include: "*"
