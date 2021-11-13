@@ -16,11 +16,11 @@ mvn clean install
 
 [Terraform模块Module管理，聚合资源的抽取与复用](https://www.pkslow.com/archives/terraform-module)
 
+[通过Terraform创建GCP Pubsub](https://www.pkslow.com/archives/terraform-gcp-pubsub)
+
 [Helm Template初体验，方便管理多环境](https://www.pkslow.com/archives/helm-template)
 
 [K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
-
-
 
 
 ## docker
