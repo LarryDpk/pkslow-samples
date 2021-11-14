@@ -18,6 +18,8 @@ mvn clean install
 
 [通过Terraform创建GCP Pubsub](https://www.pkslow.com/archives/terraform-gcp-pubsub)
 
+[通过Google Cloud Storage(GCS)管理Terraform的状态State](https://www.pkslow.com/archives/terraform-gcs)
+
 [Helm Template初体验，方便管理多环境](https://www.pkslow.com/archives/helm-template)
 
 [K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
