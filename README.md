@@ -24,6 +24,7 @@ mvn clean install
 
 [K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
 
+[在GCP上创建GCE的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-gce)
 
 ## docker
 ### postgresql-multiple-databases
