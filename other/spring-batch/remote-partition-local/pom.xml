@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>spring-batch</artifactId>
-        <groupId>com.pkslow</groupId>
+        <groupId>com.pkslow.other</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -58,7 +58,7 @@
                         </goals>
                         <configuration>
                             <outputDirectory>
-                                ${project.build.directory}/libs
+                                target/libs
                             </outputDirectory>
                         </configuration>
                     </execution>

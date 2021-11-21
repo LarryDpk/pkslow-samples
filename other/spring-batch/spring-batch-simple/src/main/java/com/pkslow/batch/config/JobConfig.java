@@ -37,7 +37,7 @@ public class JobConfig {
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
 
-    @Value("input/inputData*.csv")
+    @Value("input/inputData1.csv")
     private Resource[] inputResources;
 
     @Value("${pkslow.outputFilename}")

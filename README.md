@@ -5,7 +5,7 @@ Topics: Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Cloud, Big Data
 
 Please visit my webSite for more articles: [pkslow.com](www.pkslow.com)
 
-<img src="https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/pkslow.jpeg" width="150" alt="pkslow.com">
+<img src="https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/pkslow-topics.png" width="400" alt="pkslow.com">
 
 Build Package:
 ```shell script
@@ -127,22 +127,26 @@ Sample for Spring Cloud:
 
 
 
-## 7 spring-batch
 
-### spring-batch-simple
+
+## 7 bigdata
+[Apache Beam入门及Java SDK开发初体验](https://www.pkslow.com/archives/apache-beam)
+
+## 8 other
+
+### postgresql
+
+[示例讲解PostgreSQL表分区的三种方式](https://www.pkslow.com/archives/postgresql-partitioning)
+
+###  spring-batch
+
+#### spring-batch-simple
 [通过例子讲解Spring Batch入门，优秀的批处理框架](https://www.pkslow.com/archives/spring-batch-introduction)
 Need to update the config `pkslow.outputFilename` accordingly.
 
-### remote-partition-local
+#### remote-partition-local
 [Spring Batch远程分区的本地Jar包模式](https://www.pkslow.com/archives/spring-batch-remote-partition-local-jar)
 Need to startup a H2 database.
-
-
-## 8 bigdata
-[Apache Beam入门及Java SDK开发初体验](https://www.pkslow.com/archives/apache-beam)
-
-## 9 other
-[示例讲解PostgreSQL表分区的三种方式](https://www.pkslow.com/archives/postgresql-partitioning)
 
 
 # Thanks to JetBrains
