@@ -5,7 +5,7 @@ Topics: Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Cloud, Big Data
 
 Please visit my webSite for more articles: [pkslow.com](www.pkslow.com)
 
-![www.pkslow.com](https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/pkslow.jpeg)
+<img src="https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/pkslow.jpeg" width="150" alt="pkslow.com">
 
 Build Package:
 ```shell script
