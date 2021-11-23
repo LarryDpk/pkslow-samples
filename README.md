@@ -3,7 +3,7 @@ samples for www.pkslow.com.
 
 Topics: Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Cloud, Big Data
 
-Please visit my webSite for more articles: [pkslow.com](www.pkslow.com)
+Please visit my webSite for more articles: www.pkslow.com
 
 <img src="https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/pkslow-topics.png" width="400" alt="pkslow.com">
 
@@ -124,6 +124,8 @@ Sample for Spring Cloud:
 [K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
 
 [在GCP上创建GCE的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-gce)
+
+[在GCP上创建Cloud SQL的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-cloudsql)
 
 
 
