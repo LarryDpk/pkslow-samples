@@ -22,7 +22,9 @@ mvn clean install
 
 [南瓜慢说文章汇总](https://www.pkslow.com/archives/all)
 
+[Terraform专题](https://www.pkslow.com/tags/terraform)
 
+[如何制定切实可行的计划并好好执行](https://www.pkslow.com/archives/how-to-make-a-good-plan)
 
 ## 1 java-basic
 
