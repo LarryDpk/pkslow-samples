@@ -25,8 +25,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
 
-        <spring-boot-dependencies.version>2.3.9.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Hoxton.SR9</spring-cloud-dependencies.version>
+        <spring-boot-dependencies.version>2.6.2</spring-boot-dependencies.version>
+        <spring-cloud-dependencies.version>2021.0.0</spring-cloud-dependencies.version>
         <spring-boot-admin.version>2.2.2</spring-boot-admin.version>
     </properties>
 
