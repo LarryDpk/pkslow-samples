@@ -20,6 +20,7 @@
         <module>ldap-server</module>
         <module>webflux-service</module>
         <module>spring-cloud-stream</module>
+        <module>spring-cloud-eureka</module>
     </modules>
 
 
