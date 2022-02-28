@@ -18,6 +18,7 @@
         <module>spring-security-jwt-webflux</module>
         <module>spring-data-cassandra</module>
         <module>springboot-influxdb</module>
+        <module>spring-data-jpa-db2</module>
     </modules>
 
 
