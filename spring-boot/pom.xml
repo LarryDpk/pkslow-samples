@@ -19,6 +19,7 @@
         <module>spring-data-cassandra</module>
         <module>springboot-influxdb</module>
         <module>spring-data-jpa-db2</module>
+        <module>springboot-jms-solace</module>
     </modules>
 
 
