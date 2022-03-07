@@ -41,6 +41,8 @@ public class SolaceConfig {
         JmsTemplate jmsTemplate = new JmsTemplate(cachingConnectionFactory);
         jmsTemplate.setPubSubDomain(true);
         jmsTemplate.setExplicitQosEnabled(true);
+        jmsTemplate.setDeliveryPersistent(true);
+        jmsTemplate.setDefaultDestinationName(solaceProperties.getDefaultPubDestinationName());
         return jmsTemplate;
     }
 

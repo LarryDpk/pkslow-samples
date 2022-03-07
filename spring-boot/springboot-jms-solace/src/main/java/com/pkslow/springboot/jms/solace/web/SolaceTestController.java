@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.PostConstruct;
 
 @RestController
 @RequestMapping("/solace")
@@ -14,12 +13,6 @@ public class SolaceTestController {
 
     public SolaceTestController(JmsTemplate pubJmsTemplate) {
         this.pubJmsTemplate = pubJmsTemplate;
-    }
-
-    @PostConstruct
-    public void init() {
-        pubJmsTemplate.setDeliveryPersistent(true);
-        pubJmsTemplate.setDefaultDestinationName("mytopic");
     }
 
     @GetMapping

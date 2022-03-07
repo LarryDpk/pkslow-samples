@@ -14,4 +14,5 @@ public class SolaceProperties {
     private String vpn;
     private String username;
     private String password;
+    private String defaultPubDestinationName;
 }
