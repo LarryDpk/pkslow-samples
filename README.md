@@ -75,6 +75,10 @@ mvn clean install
 ### springboot-influxdb
 [用InfluxDB+Grafana监控Springboot应用](https://www.pkslow.com/archives/springboot-monitored-by-influxdb-grafana)
 
+### springboot-jms-solace
+- [通过Docker启动Solace，并在Spring Boot通过JMS整合Solace](https://www.pkslow.com/archives/solace)
+
+
 ## 3 spring-cloud
 Sample for Spring Cloud:
 - [Spring Cloud Gateway简单入门，强大的微服务网关](https://www.pkslow.com/archives/spring-cloud-gateway-introduction)
