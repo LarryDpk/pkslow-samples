@@ -15,4 +15,5 @@ public class SolaceProperties {
     private String username;
     private String password;
     private String defaultPubDestinationName;
+    private String defaultSubDestinationName;
 }

@@ -2,7 +2,6 @@ package com.pkslow.springboot.jms.solace.config;
 
 import com.solacesystems.jms.SolJmsUtility;
 import com.solacesystems.jms.SupportedProperty;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.connection.CachingConnectionFactory;
@@ -13,12 +12,15 @@ import javax.naming.InitialContext;
 import java.util.Properties;
 
 @Configuration
-public class SolaceConfig {
+public class SolacePubConfig {
 
-    @Autowired
-    private SolaceProperties solaceProperties;
+    private final SolaceProperties solaceProperties;
 
-    @Bean
+    public SolacePubConfig(SolaceProperties solaceProperties) {
+        this.solaceProperties = solaceProperties;
+    }
+
+    @Bean("connectionFactory")
     public ConnectionFactory connectionFactory() throws Exception {
         Properties env = new Properties();
         env.put(InitialContext.INITIAL_CONTEXT_FACTORY, "com.solacesystems.jndi.SolJNDIInitialContextFactory");
