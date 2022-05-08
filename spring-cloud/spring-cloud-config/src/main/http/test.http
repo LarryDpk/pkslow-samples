@@ -1,0 +1,14 @@
+###
+http://localhost:8888/application/default
+
+###
+http://localhost:8888/application/default/master
+
+###
+http://localhost:8888/master/application.properties
+
+###
+http://localhost:8888/application-default.properties
+
+###
+http://localhost:8888/application/default/release-20200809

@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri: /Users/larry/IdeaProjects/pkslow-samples
+          uri: /Users/larry/IdeaProjects/pkslow-modules/config-server/git-repo
