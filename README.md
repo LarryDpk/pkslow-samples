@@ -14,7 +14,7 @@ mvn clean install
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=LarryDpk/pkslow-samples&type=Date)](https://star-history.com/#larrydpk/pkslow-samples&Date)
+![Star History Chart](https://api.star-history.com/svg?repos=LarryDpk/pkslow-samples&type=Date)
 
 
 ### 快速到达
