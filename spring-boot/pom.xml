@@ -20,6 +20,7 @@
         <module>springboot-influxdb</module>
         <module>spring-data-jpa-db2</module>
         <module>springboot-jms-solace</module>
+        <module>springboot-ssl</module>
     </modules>
 
 
