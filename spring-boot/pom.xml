@@ -21,6 +21,7 @@
         <module>spring-data-jpa-db2</module>
         <module>springboot-jms-solace</module>
         <module>springboot-ssl</module>
+        <module>springboot-ssl-tomcat</module>
     </modules>
 
 
