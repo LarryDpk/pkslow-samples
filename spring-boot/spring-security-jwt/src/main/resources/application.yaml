@@ -4,3 +4,6 @@ pkslow:
     validityInMs: 600000
 server:
   port: 8080
+spring:
+  main:
+    allow-circular-references: true
