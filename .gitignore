@@ -3,6 +3,7 @@
 *.ipr
 *.iws
 .idea/
+.fleet/
 rebel.xml
 
 target/
