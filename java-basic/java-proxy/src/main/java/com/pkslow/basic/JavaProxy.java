@@ -10,9 +10,9 @@ import java.nio.file.StandardCopyOption;
 public class JavaProxy {
     public static void main(String[] args) throws IOException {
         System.setProperty("http.proxyHost", "localhost");
-        System.setProperty("http.proxyPort", "1087");
+        System.setProperty("http.proxyPort", "7890");
         System.setProperty("https.proxyHost", "localhost");
-        System.setProperty("https.proxyPort", "1087");
+        System.setProperty("https.proxyPort", "7890");
 
         URL website = new URL("https://www.google.com");
         try (InputStream in = website.openStream()) {
