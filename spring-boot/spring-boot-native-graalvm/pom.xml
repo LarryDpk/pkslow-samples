@@ -13,8 +13,6 @@
     <artifactId>spring-boot-native-graalvm</artifactId>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-native.version>0.11.5</spring-native.version>
     </properties>

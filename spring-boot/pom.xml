@@ -22,9 +22,7 @@
         <module>springboot-jms-solace</module>
         <module>springboot-ssl</module>
         <module>springboot-ssl-tomcat</module>
-
-<!--        below need JDK 11-->
-<!--        <module>spring-boot-native-graalvm</module>-->
+        <module>spring-boot-native-graalvm</module>
     </modules>
 
 
