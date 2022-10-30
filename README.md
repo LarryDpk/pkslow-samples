@@ -83,6 +83,8 @@ mvn clean install
 ### springboot-jms-solace
 - [通过Docker启动Solace，并在Spring Boot通过JMS整合Solace](https://www.pkslow.com/archives/solace)
 
+### spring-boot-native-graalvm
+- [GraalVM和Spring Native尝鲜，一步步让Springboot启动飞起来，66ms完成启动](https://www.pkslow.com/archives/spring-boot-native-graalvm)
 
 ## 3 spring-cloud
 Sample for Spring Cloud:
