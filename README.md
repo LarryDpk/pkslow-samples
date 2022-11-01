@@ -171,6 +171,8 @@ Need to update the config `pkslow.outputFilename` accordingly.
 [Spring Batch远程分区的本地Jar包模式](https://www.pkslow.com/archives/spring-batch-remote-partition-local-jar)
 Need to startup a H2 database.
 
+### quarkus-quickstart
+- [Quarkus入门体验，22ms启动一个Web服务](https://www.pkslow.com/archives/quarkus-quickstart)
 
 # Thanks to JetBrains
 
