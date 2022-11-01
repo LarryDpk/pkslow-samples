@@ -17,7 +17,6 @@
         <module>cloud</module>
         <module>other</module>
         <module>bigdata</module>
-        <module>spring-boot/springboot-ssl-jetty</module>
     </modules>
 
     <properties>

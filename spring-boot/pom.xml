@@ -22,6 +22,7 @@
         <module>springboot-jms-solace</module>
         <module>springboot-ssl</module>
         <module>springboot-ssl-tomcat</module>
+        <module>springboot-ssl-jetty</module>
         <module>spring-boot-native-graalvm</module>
     </modules>
 
