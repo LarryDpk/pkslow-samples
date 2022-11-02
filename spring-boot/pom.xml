@@ -24,6 +24,7 @@
         <module>springboot-ssl-tomcat</module>
         <module>springboot-ssl-jetty</module>
         <module>spring-boot-native-graalvm</module>
+        <module>spring-boot-native-without-buildtools</module>
     </modules>
 
 
