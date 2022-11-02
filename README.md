@@ -86,6 +86,9 @@ mvn clean install
 ### spring-boot-native-graalvm
 - [GraalVM和Spring Native尝鲜，一步步让Springboot启动飞起来，66ms完成启动](https://www.pkslow.com/archives/spring-boot-native-graalvm)
 
+### spring-boot-native-without-buildtools
+- [Spring Native打包本地镜像，无需通过Graal的maven插件buildtools](https://www.pkslow.com/archives/spring-boot-native-without-buildtools)
+
 ## 3 spring-cloud
 Sample for Spring Cloud:
 - [Spring Cloud Gateway简单入门，强大的微服务网关](https://www.pkslow.com/archives/spring-cloud-gateway-introduction)
