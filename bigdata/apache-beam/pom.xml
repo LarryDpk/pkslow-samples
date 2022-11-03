@@ -14,8 +14,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>direct-runner</module>
+        <module>word-count-beam</module>
     </modules>
-
 
 
     <dependencyManagement>
