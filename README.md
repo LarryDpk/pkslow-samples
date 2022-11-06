@@ -151,7 +151,8 @@ Sample for Spring Cloud:
 
 [在GCP上创建Cloud SQL的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-cloudsql)
 
-
+### dapr
+- [dapr本地托管的服务调用体验与Java SDK的Spring Boot整合](https://www.pkslow.com/archives/dapr-java-sdk-springboot)
 
 
 
