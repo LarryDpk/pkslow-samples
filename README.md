@@ -89,6 +89,9 @@ mvn clean install
 ### spring-boot-native-without-buildtools
 - [Spring Native打包本地镜像，无需通过Graal的maven插件buildtools](https://www.pkslow.com/archives/spring-boot-native-without-buildtools)
 
+### spring-boot-katharsis
+- [在Spring Boot中整合Katharsis，来快速开发JSON API的Web应用](https://www.pkslow.com/archives/springboot-katharsis)
+
 ## 3 spring-cloud
 Sample for Spring Cloud:
 - [Spring Cloud Gateway简单入门，强大的微服务网关](https://www.pkslow.com/archives/spring-cloud-gateway-introduction)
