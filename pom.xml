@@ -17,6 +17,7 @@
         <module>cloud</module>
         <module>other</module>
         <module>bigdata</module>
+        <module>python</module>
     </modules>
 
     <properties>
