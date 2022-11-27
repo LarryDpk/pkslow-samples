@@ -181,6 +181,10 @@ Need to startup a H2 database.
 ### quarkus-quickstart
 - [Quarkus入门体验，22ms启动一个Web服务](https://www.pkslow.com/archives/quarkus-quickstart)
 
+## Python
+- [用Python做了一个广东疫情新增病例动态视频](https://www.pkslow.com/archives/python-covid-19-guangdong)
+- [用Python库BeautifulSoup来读取广东疫情近期数据并存在csv上](https://www.pkslow.com/archives/python-bs4-csv)
+
 # Thanks to JetBrains
 
 <h3 align="center">JetBrains</h3>
