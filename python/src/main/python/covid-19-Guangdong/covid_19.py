@@ -1,3 +1,4 @@
+import csv
 import matplotlib.pyplot as plt
 import pyexcel as p
 from datetime import datetime
@@ -27,17 +28,45 @@ def load_data():
     return data_x, data_y1, data_y2
 
 
-data_x, data_y1, data_y2 = load_data()
+def read_data_from_csv(file_name):
+    data_x = []
+    data_y1 = []
+    data_y2 = []
+    with open(file_name) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        for row in csv_reader:
+            if line_count == 0:
+                print(f'Column names are {", ".join(row)}')
+                line_count += 1
+            else:
+                date = datetime.strptime(row[0], '%Y-%m-%d')
+                # 只要11月开始的数据
+                if date < datetime(2022, 11, 1):
+                    continue
+                data_x.append(date)
+                data_y1.append(int(row[1]) + int(row[3]))
+                data_y2.append(int(row[2]) + int(row[4]))
+                line_count += 1
+        print(f'Read {line_count} lines.')
 
-# fig = plt.figure(figsize=(16, 9), dpi=240)
+    return data_x, data_y1, data_y2
+
+
+data_x, data_y1, data_y2 = read_data_from_csv('../beautifulsoup4-example/covid-19.csv')
+# data_x, data_y1, data_y2 = load_data()
+length = len(data_x)
+interval_show = 2
+remainder = length % interval_show
+
 fig = plt.figure(figsize=(15, 20), dpi=240)
-ax = plt.axes(xlim=(0, 28), ylim=(0, 10000))
-# ax = plt.axes(xlim=(0, 25), ylim=(0, 6000))
+ax = plt.axes(xlim=(0, length + 1), ylim=(0, 10000))
 line1, = ax.plot([], [], linewidth=2.0, color='tomato')
 line2, = ax.plot([], [], linewidth=2.0, color='lightskyblue')
 
 # 为了支持中文显示
 plt.rcParams['font.family'] = ['Heiti TC']
+plt.rcParams['font.sans-serif'] = ['Heiti TC']
 plt.title('广东病例新增变化', color='dimgray', fontsize=30)
 
 text_date = ax.text(2, 9000, '', ha='left', color='black', fontsize=20)
@@ -50,10 +79,14 @@ text2 = ax.text(0, 0, '', ha='center', color='blue', fontsize=10)
 # x轴的显示
 xt = range(len(data_x) + 1)
 xt = xt[1:]
+xt_show = []
 dx_show = []
-for item in data_x:
-    dx_show.append(datetime_to_str(item, '{}-{}'))
-plt.xticks(xt, dx_show)
+for i, item in enumerate(data_x):
+    if (i + 1) % interval_show == remainder:
+        dx_show.append(datetime_to_str(item, '{}-{}'))
+        xt_show.append(i + 1)
+
+plt.xticks(xt_show, dx_show)
 
 
 # initialization function: plot the background of each frame
