@@ -20,4 +20,3 @@ uaa.war
 .terraform
 .terraform.lock.hcl
 terraform.tfstate*
-/python/src/main/python/covid-19-Guangdong/covid-19-Guangdong.mp4

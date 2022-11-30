@@ -38,7 +38,7 @@ def read_data_from_csv(file_name):
         for row in csv_reader:
             if line_count == 0:
                 print(f'Column names are {", ".join(row)}')
-                line_count += 1
+                # line_count += 1
             else:
                 date = datetime.strptime(row[0], '%Y-%m-%d')
                 # 只要11月开始的数据
@@ -123,3 +123,5 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
 
 plt.rcParams['animation.ffmpeg_path'] = '/Users/larry/Software/ffmpeg/ffmpeg'
 anim.save('covid-19-Guangdong.mp4', fps=1, extra_args=['-vcodec', 'libx264'])
+
+plt.savefig('covid-19.png')
