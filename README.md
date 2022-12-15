@@ -32,6 +32,33 @@ mvn clean install
 为了方便大家查看，我花了些时间重新整理了一下所有文章，让大家可以更好找到文章和代码。
 所有文章按时间顺序请访问： https://www.pkslow.com/archives
 
+目录
+=================
+
+* [pkslow-samples](#pkslow-samples)
+    * [Star History](#star-history)
+* [南瓜慢说](#南瓜慢说)
+* [Spring Boot](#spring-boot)
+* [Spring Cloud](#spring-cloud)
+* [Docker](#docker)
+* [Kubernetes](#kubernetes)
+* [Cloud](#cloud)
+    * [《Terraform 101 从入门到实践》](#terraform-101-从入门到实践)
+* [Java基础](#java基础)
+* [其它技术](#其它技术)
+    * [Python](#python)
+    * [Linux](#linux)
+    * [App开发](#app开发)
+    * [数据库](#数据库)
+    * [IDEA](#idea)
+    * [VSCode](#vscode)
+* [生活](#生活)
+    * [生活杂事](#生活杂事)
+    * [旅行](#旅行)
+    * [育儿](#育儿)
+    * [诗词歌赋](#诗词歌赋)
+* [Thanks to JetBrains](#thanks-to-jetbrains)
+  * [JetBrains](#jetbrains)
 
 > 敢一行，则予知。脚踏实地，知行合一。
 
@@ -632,6 +659,7 @@ mvn clean install
 [Intellij IDEA运行报Command line is too long的解决办法](https://www.pkslow.com/archives/idea-error-command-line-too-long)
 
 [Intellij IDEA利用正则替换，并保留匹配结果](https://www.pkslow.com/archives/idea-regex-replace-with-matched-value)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/12/20221215.Intellij%20IDEA%E5%88%A9%E7%94%A8%E6%AD%A3%E5%88%99%E6%9B%BF%E6%8D%A2%EF%BC%8C%E5%B9%B6%E4%BF%9D%E7%95%99%E5%8C%B9%E9%85%8D%E7%BB%93%E6%9E%9C.md)
 
 
 ## VSCode
@@ -660,7 +688,7 @@ mvn clean install
 
 [IT界的名言名语](https://www.pkslow.com/archives/it-phrases)
 
-### 旅行
+## 旅行
 [印尼之行-龙目岛和科莫多岛9日自由行旅婚](https://www.pkslow.com/archives/indonesia-lombok-komodo)
 
 [黄山徽州五日行-最美风景与攻略献给你](https://www.pkslow.com/archives/huangshan-2020)
