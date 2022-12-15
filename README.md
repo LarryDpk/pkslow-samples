@@ -81,61 +81,61 @@ mvn clean install
 [如何开发Springboot命令行非Web应用](https://www.pkslow.com/archives/springboot-commandline)
 
 [Spring Batch远程分区的本地Jar包模式](https://www.pkslow.com/archives/spring-batch-remote-partition-local-jar)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/other/spring-batch/remote-partition-local
+- Code: [/other/spring-batch/remote-partition-local](https://github.com/LarryDpk/pkslow-samples/tree/master/other/spring-batch/remote-partition-local)
 
 [大量数据也不在话下，Spring Batch并行处理四种模式初探](https://www.pkslow.com/archives/spring-batch-scaling)
 
 [通过例子讲解Spring Batch入门，优秀的批处理框架](https://www.pkslow.com/archives/spring-batch-introduction)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/other/spring-batch/spring-batch-simple
+- Code: [/other/spring-batch/spring-batch-simple](https://github.com/LarryDpk/pkslow-samples/tree/master/other/spring-batch/spring-batch-simple)
 
 [用InfluxDB+Grafana监控Springboot应用](https://www.pkslow.com/archives/springboot-monitored-by-influxdb-grafana)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-influxdb
+- Code: [/spring-boot/springboot-influxdb](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-influxdb)
 
 [Spring自定义转换类，让@Value更方便](https://www.pkslow.com/archives/spring-custom-convert)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/rest-service
+- Code: [/spring-cloud/rest-service](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/rest-service)
 
 [Springboot的Web应用中HTTP请求头RequestHeader过大](https://www.pkslow.com/archives/springboot-http-request-header-too-large)
 
 [Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-audit
+- Code: [/spring-boot/spring-data-jpa-audit](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-audit)
 
 [在Spring WebFlux的任何地方获取Request对象](https://www.pkslow.com/archives/spring-webflux-get-request)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/webflux-service
+- Code: [/spring-cloud/webflux-service](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/webflux-service)
 
 [Springboot WebFlux集成Spring Security实现JWT认证](https://www.pkslow.com/archives/springboot-spring-security-jwt-webflux)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-security-jwt-webflux
+- Code: [/spring-boot/spring-security-jwt-webflux](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-security-jwt-webflux)
 
 [Bean初始化操作initMethod、@PostConstruct和InitializingBean](https://www.pkslow.com/archives/bean-initializing)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common
+- Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
 
 [Springboot集成Spring Security实现JWT认证](https://www.pkslow.com/archives/springboot-spring-security-jwt-web)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-security-jwt
+- Code: [/spring-boot/spring-security-jwt](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-security-jwt)
 
 [Spring MVC获取HTTP请求头的两种方式](https://www.pkslow.com/archives/spring-mvc-get-headers)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-audit
+- Code: [/spring-boot/spring-data-jpa-audit](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-audit)
 
 [用ApplicationContextRunner测试配置类](https://www.pkslow.com/archives/test-config-class-with-applicationcontextrunner)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common
+- Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
 
 [使用SpringBootCondition更自由地定义条件化配置](https://www.pkslow.com/archives/springbootcondition)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common
+- Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
 
 [Spring Boot Actuator show the git and build info](https://www.pkslow.com/archives/springboot-actuator-git-build-info-en)
 
 [Spring Boot通过Actuator显示git和build的信息](https://www.pkslow.com/archives/springboot-actuator-git-build-info)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common
+- Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
 
 [Spring Native打包本地镜像，无需通过Graal的maven插件buildtools](https://www.pkslow.com/archives/spring-boot-native-without-buildtools)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-native-without-buildtools
+- Code: [/spring-boot/spring-boot-native-without-buildtools](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-native-without-buildtools)
 
 [Quarkus入门体验，22ms启动一个Web服务](https://www.pkslow.com/archives/quarkus-quickstart)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/other/quarkus-quickstart
+- Code: [/other/quarkus-quickstart](https://github.com/LarryDpk/pkslow-samples/tree/master/other/quarkus-quickstart)
 
 [GraalVM和Spring Native尝鲜，一步步让Springboot启动飞起来，66ms完成启动](https://www.pkslow.com/archives/spring-boot-native-graalvm)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-native-graalvm
+- Code: [/spring-boot/spring-boot-native-graalvm](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-native-graalvm)
 
 [在Spring Boot中整合Katharsis，来快速开发JSON API的Web应用](https://www.pkslow.com/archives/springboot-katharsis)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-katharsis
+- Code: [/spring-boot/spring-boot-katharsis](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-katharsis)
 
 
 
@@ -147,34 +147,34 @@ mvn clean install
 [Spring Cloud Data Flow用Shell来操作，方便建立CICD](https://www.pkslow.com/archives/spring-cloud-dataflow-shell)
 
 [Spring Cloud Data Flow整合UAA使用外置数据库和API接口](https://www.pkslow.com/archives/spring-cloud-dataflow-uaa-api)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/cloudfoundry-uaa-server
+- Code: [/spring-cloud/cloudfoundry-uaa-server](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/cloudfoundry-uaa-server)
 
 [Spring Cloud Data Flow整合Cloudfoundry UAA服务做权限控制](https://www.pkslow.com/archives/spring-cloud-dataflow-uaa)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/cloudfoundry-uaa-server
+- Code: [/spring-cloud/cloudfoundry-uaa-server](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/cloudfoundry-uaa-server)
 
 [Spring Cloud Data Flow整合UAA之使用LDAP进行账号管理](https://www.pkslow.com/archives/spring-cloud-dataflow-uaa-ldap)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/ldap-server
+- Code: [/spring-cloud/ldap-server](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/ldap-server)
 
 [使用Spring Cloud Config统一管理配置，别再到处放配置文件了](https://www.pkslow.com/archives/spring-cloud-config)
 
 [Spring Cloud Config在Spring Cloud Task中的应用，比Web应用更简单](https://www.pkslow.com/archives/spring-cloud-config-for-cloud-task)
 
 [Spring Cloud Gateway简单入门，强大的微服务网关](https://www.pkslow.com/archives/spring-cloud-gateway-introduction)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-gateway
+- Code: [/spring-cloud/spring-cloud-gateway](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-gateway)
 
 [整合Spring Cloud Stream Binder与RabbitMQ进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-rabbit)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-rabbit
+- Code: [/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-rabbit](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-rabbit)
 
 [Integrate Spring Cloud Stream Binder with Kafka](https://www.pkslow.com/archives/spring-cloud-stream-binder-kafka-en)
 
 [整合Spring Cloud Stream Binder与Kafka进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-kafka)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-kafka
+- Code: [/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-kafka](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-kafka)
 
 [Spring Cloud服务发现组件Eureka](https://www.pkslow.com/archives/spring-cloud-eureka)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-eureka
+- Code: [/spring-cloud/spring-cloud-eureka](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-eureka)
 
 [Spring Cloud Service Discovery with Netflix Eureka](https://www.pkslow.com/archives/spring-cloud-eureka-en)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-eureka
+- Code: [/spring-cloud/spring-cloud-eureka](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-eureka)
 
 
 
@@ -216,17 +216,17 @@ mvn clean install
 [使用Harbor搭建Docker私有仓库](https://www.pkslow.com/archives/harbor-docker-registry)
 
 [Docker启动PostgreSQL时创建多个数据库](https://www.pkslow.com/archives/docker-postgresql-multiple-databases)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/docker/postgresql-multiple-databases
+- Code: [/docker/postgresql-multiple-databases](https://github.com/LarryDpk/pkslow-samples/tree/master/docker/postgresql-multiple-databases)
 
 [Docker安装Kong API Gateway并使用](https://www.pkslow.com/archives/kong-docker)
 
 [如何从Docker镜像中导出文件](https://www.pkslow.com/archives/extract-files-from-docker-image)
 
 [通过Docker启动DB2，并在Spring Boot整合DB2](https://www.pkslow.com/archives/db2)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-db2
+- Code: [/spring-boot/spring-data-jpa-db2](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-db2)
 
 [通过Docker启动Solace，并在Spring Boot通过JMS整合Solace](https://www.pkslow.com/archives/solace)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-jms-solace
+- Code: [/spring-boot/springboot-jms-solace](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-jms-solace)
 
 
 
@@ -273,22 +273,22 @@ mvn clean install
 [Mac为docker和kubectl添加自动命令补全](https://www.pkslow.com/archives/docker-kubectl-bash-completion-for-mac)
 
 [最好的Kubernetes客户端Java库fabric8io，快来自定义你的操作](https://www.pkslow.com/archives/kubernetes-client-fabric8io)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/kubernetes-client-fabric8io
+- Code: [/kubernetes/kubernetes-client-fabric8io](https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/kubernetes-client-fabric8io)
 
 [CORS跨源资源共享概念及配置（Kubernetes Ingress和Spring Cloud Gateway）](https://www.pkslow.com/archives/http-cors)
 
 [Kubernetes ConfigMap详解，多种方式创建、多种方式使用](https://www.pkslow.com/archives/kubernetes-configmap)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/configmap-springboot
+- Code: [/kubernetes/configmap-springboot](https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/configmap-springboot)
 
 [解决Kubernetes以root用户mount volumn导致无写权限的问题](https://www.pkslow.com/archives/kubernetes-mount-volumn-as-none-root)
 
 [Kubernetes Pod中容器的Liveness、Readiness和Startup探针](https://www.pkslow.com/archives/kubernetes-liveness-readiness-startup-probes)
 
 [Kubernetes使用Keda进行弹性伸缩，更合理利用资源](https://www.pkslow.com/archives/keda)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/keda
+- Code: [/kubernetes/keda](https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/keda)
 
 [Helm Template初体验，方便管理多环境](https://www.pkslow.com/archives/helm-template)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/helm
+- Code: [/cloud/helm](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/helm)
 
 [在Ubuntu用Minikube安装Kubernetes](https://www.pkslow.com/archives/minikube-ubuntu)
 
@@ -307,22 +307,22 @@ mvn clean install
 [如何在GCE访问GKE中的TCP服务](https://www.pkslow.com/archives/gce-access-tcp-in-gke)
 
 [整合Spring Cloud Stream Binder与GCP Pubsub进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-pubsub)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-pubsub
+- Code: [/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-pubsub](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-pubsub)
 
 [Terraform Module - extract and reuse](https://www.pkslow.com/archives/terraform-module-en)
 
 [Terraform常用命令](https://www.pkslow.com/archives/terraform-commands)
 
 [Terraform模块Module管理，聚合资源的抽取与复用](https://www.pkslow.com/archives/terraform-module)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/module-example
+- Code: [/cloud/terraform/src/main/terraform/module-example](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/module-example)
 
 [Terraform状态State管理，让变更有记录](https://www.pkslow.com/archives/terraform-state)
 
 [Terraform插件Provider管理，搜索、定义、下载](https://www.pkslow.com/archives/terraform-provider)
 
 [Terraform入门教程，示例展示管理Docker和Kubernetes资源](https://www.pkslow.com/archives/terraform)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/docker
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/kubernetes
+- Code: [/cloud/terraform/src/main/terraform/docker](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/docker)
+- Code: [/cloud/terraform/src/main/terraform/kubernetes](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/kubernetes)
 
 
 [GCP Pubsub Introduction - so easy to use](https://www.pkslow.com/archives/gcp-pubsub-en)
@@ -330,23 +330,23 @@ mvn clean install
 [GCP消息队列Pubsub详解，简单好用还不用自己运维](https://www.pkslow.com/archives/gcp-pubsub)
 
 [K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/k8ssandra
+- Code: [/cloud/k8ssandra](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/k8ssandra)
 
 [在Mac上安装Istio并使用，有丰富的监控Kiali、Grafana、Jaeger](https://www.pkslow.com/archives/istio-mac)
 
 [服务网格Istio入门-详细记录Kubernetes安装Istio并使用](https://www.pkslow.com/archives/istio)
 
 [使用Stargate访问K8ssandra，Springboot整合Cassandra](https://www.pkslow.com/archives/k8ssandra-stargatre)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-cassandra
+- Code: [/spring-boot/spring-data-cassandra](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-cassandra)
 
 [在GCP上创建Cloud SQL的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-cloudsql)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/cloudsql
+- Code: [/cloud/terraform/src/main/terraform/gcp/cloudsql](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/cloudsql)
 
 [Three ways to create Cloud SQL on GCP(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-cloudsql-en)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/cloudsql
+- Code: [/cloud/terraform/src/main/terraform/gcp/cloudsql](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/cloudsql)
 
 [在GCP上创建GCE的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-gce)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/gce
+- Code: [/cloud/terraform/src/main/terraform/gcp/gce](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/gce)
 
 [Three ways to create GCE on GCP(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-gce-en)
 
@@ -359,7 +359,7 @@ mvn clean install
 [Manage Terraform State on Google Cloud Storage(GCS)](https://www.pkslow.com/archives/terraform-gcs-en)
 
 [通过Terraform创建GCP Pubsub](https://www.pkslow.com/archives/terraform-gcp-pubsub)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/pubsub
+- Code: [/cloud/terraform/src/main/terraform/gcp/pubsub](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/pubsub)
 
 [Manage GCP Pubsub with Terraform](https://www.pkslow.com/archives/terraform-gcp-pubsub-en)
 
@@ -376,7 +376,7 @@ mvn clean install
 [在GCP的Kubernetes上安装dapr](https://www.pkslow.com/archives/dapr-kubernetes-mode)
 
 [dapr本地托管的服务调用体验与Java SDK的Spring Boot整合](https://www.pkslow.com/archives/dapr-java-sdk-springboot)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/dapr/dapr-springboot
+- Code: [/cloud/dapr/dapr-springboot](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/dapr/dapr-springboot)
 
 [dapr入门与本地托管模式尝试](https://www.pkslow.com/archives/dapr-quickstart)
 
@@ -477,20 +477,20 @@ mvn clean install
 [IntelliJ IDEA远程Debug Linux的Java程序，找问题不要只会看日志了](https://www.pkslow.com/archives/idea-remote-debug)
 
 [Protobuf入门与使用示例，高性能的序列化框架](https://www.pkslow.com/archives/protobuf-introduction)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/protobuf
+- Code: [/java-basic/protobuf](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/protobuf)
 
 [远程过程调用框架gRPC入门及Java示例代码](https://www.pkslow.com/archives/grpc-introduction)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/grpc
+- Code: [/java-basic/grpc](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/grpc)
 
 [通过Maven用LiquiBase对数据库变更进行版本控制](https://www.pkslow.com/archives/liquibase)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/liquibase
+- Code: [/java-basic/liquibase](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/liquibase)
 
 [用pl.pojo.tester测试Pojo类，提高测试覆盖率](https://www.pkslow.com/archives/pl-pojo-tester)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/pl-pojo-tester
+- Code: [/java-basic/pl-pojo-tester](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/pl-pojo-tester)
 
 [Java如何设置代理来访问受限资源](https://www.pkslow.com/archives/java-proxy)
 
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/java-proxy
+- Code: [/java-basic/java-proxy](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/java-proxy)
 
 
 
@@ -556,7 +556,7 @@ mvn clean install
 [Mac通过命令pstree显示进程树](https://www.pkslow.com/archives/mac-pstree)
 
 [Apache Beam入门及Java SDK开发初体验](https://www.pkslow.com/archives/apache-beam)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/bigdata/apache-beam/direct-runner
+- Code: [/bigdata/apache-beam/direct-runner](https://github.com/LarryDpk/pkslow-samples/tree/master/bigdata/apache-beam/direct-runner)
 
 [git常用命令](https://www.pkslow.com/archives/git-commands)
 
@@ -565,13 +565,13 @@ mvn clean install
 [如何在IntelliJ IDEA设置Python开发环境](https://www.pkslow.com/archives/idea-python-support)
 
 [用Python做了一个广东疫情新增病例动态视频](https://www.pkslow.com/archives/python-covid-19-guangdong)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/covid-19-Guangdong
+- Code: [/python/src/main/python/covid-19-Guangdong](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/covid-19-Guangdong)
 
 [用Python库BeautifulSoup来读取广东疫情近期数据并存在csv上](https://www.pkslow.com/archives/python-bs4-csv)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/beautifulsoup4-example
+- Code: [/python/src/main/python/beautifulsoup4-example](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/beautifulsoup4-example)
 
 [用GPU来运行Python代码](https://www.pkslow.com/archives/run-python-with-gpu)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/cuda
+- Code: [/python/src/main/python/cuda](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/cuda)
 
 
 
@@ -606,10 +606,10 @@ mvn clean install
 [How to partition the big table in PostgreSQL - Range List Hash](https://www.pkslow.com/archives/postgresql-partitioning-en)
 
 [示例讲解PostgreSQL表分区的三种方式](https://www.pkslow.com/archives/postgresql-partitioning)
-- Code: https://github.com/LarryDpk/pkslow-samples/tree/master/other/postgresql
+- Code: [/other/postgresql](https://github.com/LarryDpk/pkslow-samples/tree/master/other/postgresql)
 
 [InfluxDB入门及使用，一个优秀的时序数据库](https://www.pkslow.com/archives/influxdb-introduction)
-- https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/influxdb
+- Code: [/java-basic/influxdb](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/influxdb)
 
 ## IDEA
 
@@ -630,6 +630,8 @@ mvn clean install
 [真香！通过开源项目免费获取JetBrains全家桶License](https://www.pkslow.com/archives/jetbrains-open-source-license)
 
 [Intellij IDEA运行报Command line is too long的解决办法](https://www.pkslow.com/archives/idea-error-command-line-too-long)
+
+[Intellij IDEA利用正则替换，并保留匹配结果](https://www.pkslow.com/archives/idea-regex-replace-with-matched-value)
 
 
 ## VSCode
