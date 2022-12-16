@@ -887,7 +887,7 @@ mvn clean install
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/07/20220717.git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
 
 [生成GitHub README的markdown导航目录](https://www.pkslow.com/archives/gh-md-toc)
-
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/12/20221216.%E7%94%9F%E6%88%90GitHub%20README%E7%9A%84markdown%E5%AF%BC%E8%88%AA%E7%9B%AE%E5%BD%95.md)
 
 
 ## Mac
@@ -1086,11 +1086,14 @@ mvn clean install
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/0000-pre/20090713.%E6%A2%A6%E6%B8%B8%E6%97%A0%E5%90%8D%E5%B1%B1.md)
 
 [哀友文-怀念逝去挚友](https://www.pkslow.com/archives/mourn-my-friends-death)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/0000-pre/20090819.%E5%93%80%E5%8F%8B%E6%96%87.md)
 
 [北征赋——献礼国庆60周年](https://www.pkslow.com/archives/go-north)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/0000-pre/20091001.%E5%8C%97%E5%BE%81%E8%B5%8B.md)
 
 [寒鸦](https://www.pkslow.com/archives/poor-crow)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/0000-pre/20091123.%E5%AF%92%E9%B8%A6.md)
+
 
 [出Bug表-假如诸葛亮是程序员](https://www.pkslow.com/archives/lets-write-bugs)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2020/10/20201024.%E5%87%BABug%E8%A1%A8-%E5%81%87%E5%A6%82%E8%AF%B8%E8%91%9B%E4%BA%AE%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%881024%E7%A8%8B%E5%BA%8F%E5%91%98%E8%8A%82%E6%97%A5%E7%8C%AE%E7%A4%BC%EF%BC%89.md)
