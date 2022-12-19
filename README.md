@@ -1080,6 +1080,7 @@ mvn clean install
 ## 诗词歌赋
 
 [送友人](https://www.pkslow.com/archives/farewell-to-friends)
+
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/0000-pre/20090322.%E9%80%81%E5%8F%8B%E4%BA%BA.md)
 
 [梦游无名山](https://www.pkslow.com/archives/dream-of-unknown-mountain)
@@ -1097,6 +1098,13 @@ mvn clean install
 
 [出Bug表-假如诸葛亮是程序员](https://www.pkslow.com/archives/lets-write-bugs)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2020/10/20201024.%E5%87%BABug%E8%A1%A8-%E5%81%87%E5%A6%82%E8%AF%B8%E8%91%9B%E4%BA%AE%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%881024%E7%A8%8B%E5%BA%8F%E5%91%98%E8%8A%82%E6%97%A5%E7%8C%AE%E7%A4%BC%EF%BC%89.md)
+
+
+# 状态
+
+![Repobeats analytics](https://repobeats.axiom.co/api/embed/13cfae2492671e23cbc71c4f469e6c9c789769f7.svg "Repobeats analytics image")
+
+
 
 
 # Thanks to JetBrains
