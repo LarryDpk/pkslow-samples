@@ -13,7 +13,7 @@ mvn clean install
 # 南瓜慢说
 你终于来了！ 欢迎来到**南瓜慢说**的世界。
 
-南瓜慢说的个人网站为*www.pkslow.com*，寓意就是南瓜慢说(pumpkin slow). 该网站会记录我最新和最全的文章，部分文章会同步其它平台。
+南瓜慢说的个人网站为 www.pkslow.com ，寓意就是南瓜慢说(pumpkin slow). 该网站会记录我最新和最全的文章，部分文章会同步其它平台。
 
 对应的GitHub仓库为：[pkslow-samples](https://github.com/LarryDpk/pkslow-samples)，该仓库主要是个人技术文章和相关的代码示例。
 主要涉及的内容有：
