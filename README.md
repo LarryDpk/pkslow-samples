@@ -906,7 +906,8 @@ Table of Contents
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2021/10/20211017.Apache%20Beam%E5%85%A5%E9%97%A8%E5%8F%8AJava%20SDK%E5%BC%80%E5%8F%91%E5%88%9D%E4%BD%93%E9%AA%8C.md)
 
 [Java如何测量方法执行时间](https://www.pkslow.com/archives/java-elapsed-time)
-
+- Code: [/java-basic/java-elapsed-time](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/java-elapsed-time)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/12/20221220.Java%E5%A6%82%E4%BD%95%E6%B5%8B%E9%87%8F%E6%96%B9%E6%B3%95%E6%89%A7%E8%A1%8C%E6%97%B6%E9%97%B4.md)
 
 
 <div align="right">
