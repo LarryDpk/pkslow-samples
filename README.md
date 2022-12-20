@@ -1104,8 +1104,8 @@ Table of Contents
 [打包iOS App并上架到TestFlight测试](https://www.pkslow.com/archives/ios-build-and-testflight)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/06/20220609.%E6%89%93%E5%8C%85iOS%20App%E5%B9%B6%E4%B8%8A%E6%9E%B6%E5%88%B0TestFlight%E6%B5%8B%E8%AF%95.md)
 
-[iOS真机调试包（更新至iOS 15.5）](https://www.pkslow.com/archives/ios-device-support)
-- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/05/20220520.iOS%E7%9C%9F%E6%9C%BA%E8%B0%83%E8%AF%95%E5%8C%85%EF%BC%88%E6%9B%B4%E6%96%B0%E8%87%B3iOS%2015.5%EF%BC%89.md)
+[iOS真机调试包](https://www.pkslow.com/archives/ios-device-support)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/05/20220520.iOS%E7%9C%9F%E6%9C%BA%E8%B0%83%E8%AF%95%E5%8C%85.md)
 
 [用Transporter上传iOS App，大大降低出错概率](https://www.pkslow.com/archives/upload-ios-app-with-transporter)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/07/20220723.%E7%94%A8Transporter%E4%B8%8A%E4%BC%A0iOS%20App%EF%BC%8C%E5%A4%A7%E5%A4%A7%E9%99%8D%E4%BD%8E%E5%87%BA%E9%94%99%E6%A6%82%E7%8E%87.md)
