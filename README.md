@@ -10,16 +10,61 @@ Build Package:
 mvn clean install
 ```
 
-## Star History
+# 南瓜慢说
+你终于来了！ 欢迎来到**南瓜慢说**的世界。
 
-![Star History Chart](https://api.star-history.com/svg?repos=LarryDpk/pkslow-samples&type=Date)
+南瓜慢说的个人网站为*www.pkslow.com*，寓意就是南瓜慢说(pumpkin slow). 该网站会记录我最新和最全的文章，部分文章会同步其它平台。
+
+对应的GitHub仓库为：[pkslow-samples](https://github.com/LarryDpk/pkslow-samples)，该仓库主要是个人技术文章和相关的代码示例。
+主要涉及的内容有：
+- Java
+- Spring Boot
+- Spring Cloud
+- Docker
+- Kubernetes
+- Cloud
+- Big Data
+- Python
+
+
+可以通过以下命令构建项目：
+
+```bash
+mvn clean install
+```
+
+![Star History Chart](https://api.star-history.com/svg?repos=LarryDpk/pkslow-samples,LarryDpk/terraform-101&type=Date)
+
+
+
+> 看着STAR数慢慢增加，也是一件值得开心的事。
+
+将坚持记录所思所想，希望带给自己成长的同时，能帮助到别人。
+
+做一个简简单单的人，
+
+做一个普普通通的人，
+
+做一个不伤害社会的人，
+
+做一个至少有一点点益处的人。
+
+<img src="https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/about/sunset.JPG"/>
+
+过好自己渺小的一生，而不至于虚无、后悔。
+
+每一个不曾起舞的日子，都是对生命的辜负。
+
+
+
+<img src="https://pkslow.oss-cn-shenzhen.aliyuncs.com/images/2020/06/Indonesia/pic_050.jpg"/>
+
+> 敢一行，则予知。脚踏实地，知行合一。
 
 Table of Contents
 =================
 
 * [pkslow-samples](#pkslow-samples)
-  * [Star History](#star-history)
-* [Table of Contents](#table-of-contents)
 * [南瓜慢说](#南瓜慢说)
 * [Spring Boot](#spring-boot)
   * [GraalVM相关](#graalvm相关)
@@ -61,26 +106,9 @@ Table of Contents
   * [旅行](#旅行)
   * [育儿](#育儿)
   * [诗词歌赋](#诗词歌赋)
+* [状态](#状态)
 * [Thanks to JetBrains](#thanks-to-jetbrains)
   * [JetBrains](#jetbrains)
-
-# 南瓜慢说
-
-该仓库主要是个人技术文章和相关的代码示例，主要涉及的内容有：Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Cloud, Big Data, Python
-
-
-
-可以通过以下命令构建项目：
-
-```bash
-mvn clean install
-```
-
-
-为了方便大家查看，我花了些时间重新整理了一下所有文章，让大家可以更好找到文章和代码。
-所有文章按时间顺序请访问： https://www.pkslow.com/archives
-
-> 敢一行，则予知。脚踏实地，知行合一。
 
 
 # Spring Boot
