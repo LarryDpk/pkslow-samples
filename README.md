@@ -905,6 +905,8 @@ Table of Contents
 - Code: [/bigdata/apache-beam/direct-runner](https://github.com/LarryDpk/pkslow-samples/tree/master/bigdata/apache-beam/direct-runner)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2021/10/20211017.Apache%20Beam%E5%85%A5%E9%97%A8%E5%8F%8AJava%20SDK%E5%BC%80%E5%8F%91%E5%88%9D%E4%BD%93%E9%AA%8C.md)
 
+[Java如何测量方法执行时间](https://www.pkslow.com/archives/java-elapsed-time)
+
 
 
 <div align="right">
