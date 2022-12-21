@@ -266,6 +266,9 @@ Table of Contents
 - Code: [/spring-boot/spring-boot-katharsis](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-boot-katharsis)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/11/20221121.%E5%9C%A8Spring%20Boot%E4%B8%AD%E6%95%B4%E5%90%88Katharsis%EF%BC%8C%E6%9D%A5%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91JSON%20API%E7%9A%84Web%E5%BA%94%E7%94%A8.md)
 
+[Spring在Filter中记录Web请求Request和返回Response的内容及时长](https://www.pkslow.com/archives/spring-log-request-response)
+- Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
+
 
 
 <div align="right">
