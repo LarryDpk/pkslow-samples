@@ -21,6 +21,7 @@
         <module>design-patterns</module>
         <module>rulebook</module>
         <module>java-elapsed-time</module>
+        <module>jdk-cglib-proxy</module>
     </modules>
 
 
