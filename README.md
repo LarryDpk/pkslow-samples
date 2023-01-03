@@ -917,7 +917,7 @@ Table of Contents
 [Java JDK Proxy和CGLib动态代理示例讲解](https://www.pkslow.com/archives/jdk-cglib-proxy)
 
 - Code: [/java-basic/jdk-cglib-proxy](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/jdk-cglib-proxy)
-- [GitHub]()
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/01/20230104.Java%20JDK%20Proxy%E5%92%8CCGLib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E7%A4%BA%E4%BE%8B%E8%AE%B2%E8%A7%A3.md)
 
 
 <div align="right">
