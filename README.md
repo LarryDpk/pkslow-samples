@@ -347,7 +347,7 @@ Table of Contents
 
 [Springboot整合AOP和注解，实现丰富的切面功能](https://www.pkslow.com/archives/springboot-aspectj-annotation)
 - Code: [/spring-boot/springboot-aspectj](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-aspectj)
-- [GitHub]()
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/01/20230105.Springboot%E6%95%B4%E5%90%88AOP%E5%92%8C%E6%B3%A8%E8%A7%A3%EF%BC%8C%E5%AE%9E%E7%8E%B0%E4%B8%B0%E5%AF%8C%E7%9A%84%E5%88%87%E9%9D%A2%E5%8A%9F%E8%83%BD.md)
 
 
 <div align="right">
