@@ -340,6 +340,9 @@ Table of Contents
 - Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2021/11/20211112.Spring%20Boot%E9%80%9A%E8%BF%87Actuator%E6%98%BE%E7%A4%BAgit%E5%92%8Cbuild%E7%9A%84%E4%BF%A1%E6%81%AF.md)
 
+[Spring AOP与AspectJ的对比及应用](https://www.pkslow.com/archives/spring-aop-vs-aspectj)
+- Code: [/spring-boot/springboot-aspectj](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-aspectj)
+- [GitHub]()
 
 
 <div align="right">
