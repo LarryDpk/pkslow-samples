@@ -920,12 +920,12 @@ Table of Contents
 - Code: [/java-basic/java-elapsed-time](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/java-elapsed-time)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/12/20221220.Java%E5%A6%82%E4%BD%95%E6%B5%8B%E9%87%8F%E6%96%B9%E6%B3%95%E6%89%A7%E8%A1%8C%E6%97%B6%E9%97%B4.md)
 
-
-
 [Java JDK Proxy和CGLib动态代理示例讲解](https://www.pkslow.com/archives/jdk-cglib-proxy)
-
 - Code: [/java-basic/jdk-cglib-proxy](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/jdk-cglib-proxy)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/01/20230104.Java%20JDK%20Proxy%E5%92%8CCGLib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E7%A4%BA%E4%BE%8B%E8%AE%B2%E8%A7%A3.md)
+
+[Mac Linux Windows等系统安装各版本JDK环境](https://www.pkslow.com/archives/install-jdk)
+- [GitHub]()
 
 
 <div align="right">
