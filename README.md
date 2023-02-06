@@ -1044,6 +1044,7 @@ Table of Contents
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/12/20221220.GitHub%E5%A6%82%E4%BD%95%E5%9C%A8README%E4%B8%AD%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8.md)
 
 [如何让Bing搜索引擎收录你的网站](https://www.pkslow.com/archives/bing-add-website)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230206.%E5%A6%82%E4%BD%95%E8%AE%A9Bing%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%94%B6%E5%BD%95%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99.md)
 
 
 
