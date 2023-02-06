@@ -33,11 +33,7 @@ mvn clean install
 mvn clean install
 ```
 
-![Star History Chart](https://api.star-history.com/svg?repos=LarryDpk/pkslow-samples,LarryDpk/terraform-101&type=Date)
 
-
-
-> 看着STAR数慢慢增加，也是一件值得开心的事。
 
 将坚持记录所思所想，希望带给自己成长的同时，能帮助到别人。
 
@@ -1046,6 +1042,8 @@ Table of Contents
 
 [GitHub如何在README中返回顶部](https://www.pkslow.com/archives/github-readme-back-to-top)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2022/12/20221220.GitHub%E5%A6%82%E4%BD%95%E5%9C%A8README%E4%B8%AD%E8%BF%94%E5%9B%9E%E9%A1%B6%E9%83%A8.md)
+
+[如何让Bing搜索引擎收录你的网站](https://www.pkslow.com/archives/bing-add-website)
 
 
 
