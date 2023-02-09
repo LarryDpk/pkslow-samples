@@ -1055,6 +1055,11 @@ Table of Contents
 [Sign Up OpenAI and try on ChatGPT](https://www.pkslow.com/archives/try-openai-chatgpt-en)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230209.Sign%20Up%20OpenAI%20and%20try%20on%20ChatGPT.md)
 
+
+[将GitHub代码同步到Gitee上，并同步更新](https://www.pkslow.com/archives/sync-github-gitee)
+
+[Synchronize GitHub with Gitee and push code to muliple repositories](https://www.pkslow.com/archives/sync-github-gitee-en)
+
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
