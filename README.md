@@ -1,4 +1,7 @@
 # pkslow-samples
+- [GitHub](https://github.com/LarryDpk/pkslow-samples)
+- [Gitee](https://gitee.com/larrydpk/pkslow-samples)
+
 There articles and code samples on website  www.pkslow.com. 
 
 Mainly Topics: Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Cloud, Big Data, Python
