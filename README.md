@@ -1047,7 +1047,7 @@ Table of Contents
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230206.%E5%A6%82%E4%BD%95%E8%AE%A9Bing%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%94%B6%E5%BD%95%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99.md)
 
 [注册OpenAI与小玩一下ChatGPT](https://www.pkslow.com/archives/try-openai-chatgpt)
-- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230209.%E6%B3%A8%E5%86%8COpenAI%E4%B8%8E%E5%B0%8F%E7%8E%A9%E4%B8%80%E4%B8%8BChatGPT.md)
 
 
 <div align="right">
