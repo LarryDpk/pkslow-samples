@@ -1046,6 +1046,8 @@ Table of Contents
 [如何让Bing搜索引擎收录你的网站](https://www.pkslow.com/archives/bing-add-website)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230206.%E5%A6%82%E4%BD%95%E8%AE%A9Bing%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E6%94%B6%E5%BD%95%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99.md)
 
+[注册OpenAI与小玩一下ChatGPT](https://www.pkslow.com/archives/try-openai-chatgpt)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02)
 
 
 <div align="right">
