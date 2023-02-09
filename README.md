@@ -1050,7 +1050,7 @@ Table of Contents
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230209.%E6%B3%A8%E5%86%8COpenAI%E4%B8%8E%E5%B0%8F%E7%8E%A9%E4%B8%80%E4%B8%8BChatGPT.md)
 
 [Sign Up OpenAI and try on ChatGPT](https://www.pkslow.com/archives/try-openai-chatgpt-en)
-- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230209.Sign%20Up%20OpenAI%20and%20try%20on%20ChatGPT.md)
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
