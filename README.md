@@ -1057,8 +1057,10 @@ Table of Contents
 
 
 [将GitHub代码同步到Gitee上，并同步更新](https://www.pkslow.com/archives/sync-github-gitee)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230210.%E5%B0%86GitHub%E4%BB%A3%E7%A0%81%E5%90%8C%E6%AD%A5%E5%88%B0Gitee%E4%B8%8A%EF%BC%8C%E5%B9%B6%E5%90%8C%E6%AD%A5%E6%9B%B4%E6%96%B0.md)
 
 [Synchronize GitHub with Gitee and push code to muliple repositories](https://www.pkslow.com/archives/sync-github-gitee-en)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/02/20230210.Synchronize%20GitHub%20with%20Gitee%20and%20push%20code%20to%20muliple%20repositories.md)
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
