@@ -934,6 +934,14 @@ Table of Contents
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/03/20230308.Java%20multiple%20ways%20to%20wait%20for%20threads%20to%20finish.md)
 - Code: [java-basic/wait-for-threads-to-finish](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/wait-for-threads-to-finish)
 
+[Callable VS Runnable对比](https://www.pkslow.com/archives/runnable-vs-callable)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/03/20230309.Callable%20VS%20Runnable%E5%AF%B9%E6%AF%94.md)
+- Code: [java-basic/runnable-vs-callable](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/runnable-vs-callable)
+
+[Difference Between Callable and Runnable in Java](https://www.pkslow.com/archives/runnable-vs-callable-en)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/03/20230309.Difference%20Between%20Callable%20and%20Runnable%20in%20Java.md)
+- Code: [java-basic/runnable-vs-callable](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/runnable-vs-callable)
+
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
