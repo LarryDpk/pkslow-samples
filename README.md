@@ -927,9 +927,12 @@ Table of Contents
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/01/20230111.Mac%20Linux%20Windows%E7%AD%89%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%90%84%E7%89%88%E6%9C%ACJDK%E7%8E%AF%E5%A2%83.md)
 
 [Java多种方法实现等待所有子线程完成再继续执行](https://www.pkslow.com/archives/wait-for-threads-to-finish)
-
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/03/20230308.Java%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95%E5%AE%9E%E7%8E%B0%E7%AD%89%E5%BE%85%E6%89%80%E6%9C%89%E5%AD%90%E7%BA%BF%E7%A8%8B%E5%AE%8C%E6%88%90%E5%86%8D%E7%BB%A7%E7%BB%AD%E6%89%A7%E8%A1%8C.md)
+- Code: [java-basic/wait-for-threads-to-finish](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/wait-for-threads-to-finish)
 
 [Java multiple ways to wait for threads to finish](https://www.pkslow.com/archives/wait-for-threads-to-finish-en)
+- [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/03/20230308.Java%20multiple%20ways%20to%20wait%20for%20threads%20to%20finish.md)
+- Code: [java-basic/wait-for-threads-to-finish](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/wait-for-threads-to-finish)
 
 
 <div align="right">
