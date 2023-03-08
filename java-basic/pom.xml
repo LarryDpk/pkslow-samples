@@ -22,6 +22,7 @@
         <module>rulebook</module>
         <module>java-elapsed-time</module>
         <module>jdk-cglib-proxy</module>
+        <module>wait-for-threads-to-finish</module>
     </modules>
 
 

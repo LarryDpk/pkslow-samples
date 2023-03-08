@@ -926,6 +926,11 @@ Table of Contents
 [Mac Linux Windows等系统安装各版本JDK环境](https://www.pkslow.com/archives/install-jdk)
 - [GitHub](https://github.com/LarryDpk/pkslow-samples/blob/master/articles/2023/01/20230111.Mac%20Linux%20Windows%E7%AD%89%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%90%84%E7%89%88%E6%9C%ACJDK%E7%8E%AF%E5%A2%83.md)
 
+[Java多种方法实现等待所有子线程完成再继续执行](https://www.pkslow.com/archives/wait-for-threads-to-finish)
+
+
+[Java multiple ways to wait for threads to finish](https://www.pkslow.com/archives/wait-for-threads-to-finish-en)
+
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
