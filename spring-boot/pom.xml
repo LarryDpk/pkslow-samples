@@ -27,6 +27,7 @@
         <module>spring-boot-native-without-buildtools</module>
         <module>spring-boot-katharsis</module>
         <module>springboot-aspectj</module>
+        <module>spring-boot-google-bard</module>
     </modules>
 
 
