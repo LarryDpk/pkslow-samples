@@ -55,54 +55,6 @@ mvn clean install
 
 > 敢一行，则予知。脚踏实地，知行合一。
 
-Table of Contents
-=================
-
-* [pkslow-samples](#pkslow-samples)
-* [南瓜慢说](#南瓜慢说)
-* [Spring Boot](#spring-boot)
-  * [GraalVM相关](#graalvm相关)
-  * [配置](#配置)
-  * [SSL](#ssl)
-  * [监控](#监控)
-  * [数据操作](#数据操作)
-  * [Web开发](#web开发)
-  * [Security](#security)
-  * [Spring Batch](#spring-batch)
-  * [其它](#其它)
-* [Spring Cloud](#spring-cloud)
-  * [Spring Cloud Data Flow](#spring-cloud-data-flow)
-  * [Spring Cloud Stream](#spring-cloud-stream)
-  * [其它](#其它-1)
-* [Docker](#docker)
-  * [Docker知识](#docker知识)
-  * [其它](#其它-2)
-* [Kubernetes](#kubernetes)
-  * [安装指导](#安装指导)
-* [Cloud](#cloud)
-  * [dapr](#dapr)
-  * [Istio](#istio)
-  * [Google Cloud Platform](#google-cloud-platform)
-  * [《Terraform 101 从入门到实践》](#terraform-101-从入门到实践)
-  * [Terraform](#terraform)
-* [Java基础](#java基础)
-  * [集合类](#集合类)
-* [其它技术](#其它技术)
-  * [Mac](#mac)
-  * [Python](#python)
-  * [Linux](#linux)
-  * [App开发](#app开发)
-  * [数据库](#数据库)
-  * [IDEA](#idea)
-  * [VSCode](#vscode)
-* [生活](#生活)
-  * [生活杂事](#生活杂事)
-  * [旅行](#旅行)
-  * [育儿](#育儿)
-  * [诗词歌赋](#诗词歌赋)
-* [状态](#状态)
-* [Thanks to JetBrains](#thanks-to-jetbrains)
-  * [JetBrains](#jetbrains)
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
@@ -136,14 +88,6 @@ Table of Contents
 </div>
 
 ## 配置
-[Springboot整合Jasypt，让配置信息安全最优雅方便的方式](https://www.pkslow.com/archives/springboot-jasypt)
-
-
-[注解@ConfigurationProperties让配置整齐而简单](https://www.pkslow.com/archives/springboot-annotation-configurationproperties)
-
-
-[只想用一篇文章记录@Value的使用，不想再找其它了](https://www.pkslow.com/archives/spring-annotation-value)
-
 
 [Spring自定义转换类，让@Value更方便](https://www.pkslow.com/archives/spring-custom-convert)
 - Code: [/spring-cloud/rest-service](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/rest-service)
@@ -162,76 +106,23 @@ Table of Contents
 - Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
 
 
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## SSL
-[Springboot整合https原来这么简单](https://www.pkslow.com/archives/springboot-ssl-basic)
-
-
-[实例讲解Springboot以Template方式整合Redis及序列化问题](https://www.pkslow.com/archives/springboot-redis-template)
-
-
-[实例讲解Springboot以Repository方式整合Redis](https://www.pkslow.com/archives/springboot-redis-repository)
-
-
-[Springboot以Jetty为容器实现http重定向到https](https://www.pkslow.com/archives/springboot-ssl-redirect-jetty)
-
-
-[Springboot以Tomcat为容器实现http重定向到https的两种方式](https://www.pkslow.com/archives/springboot-ssl-redirect-tomcat)
-
-
-[Https双向验证与Springboot整合测试-人来人往我只认你](https://www.pkslow.com/archives/two-way-ssl)
-
-
-[Springboot-WebFlux实现http重定向到https](https://www.pkslow.com/archives/springboot-ssl-redirect-webflux)
-
-
-
-
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
 ## 监控
-[用Springboot Admin监控你的微服务应用](https://www.pkslow.com/archives/monitor-microservice-by-springboot-admini)
-
-
-
-[实例讲解Springboot整合OpenTracing分布式链路追踪系统（Jaeger和Zipkin）](https://www.pkslow.com/archives/springboot-opentracing-with-jaeger-zipkin)
-
-
-[用Prometheus+Grafana监控Springboot应用](https://www.pkslow.com/archives/springboot-monitored-by-prometheus-grafana)
-
 
 [用InfluxDB+Grafana监控Springboot应用](https://www.pkslow.com/archives/springboot-monitored-by-influxdb-grafana)
 - Code: [/spring-boot/springboot-influxdb](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-influxdb)
-
-
-
-
-
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
 ## 数据操作
-[实例讲解Springboot整合MongoDB进行CRUD操作的两种方式](https://www.pkslow.com/archives/springboot-mongodb-repository-template)
-
-
-[简化RESTful开发，Spring Data REST让你少掉发](https://www.pkslow.com/archives/spring-data-rest)
-
-
 
 [Spring Data JPA的Audit功能，审计数据库的变更](https://www.pkslow.com/archives/spring-data-jpa-audit)
 - Code: [/spring-boot/spring-data-jpa-audit](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-audit)
-
-
-
-
 
 
 <div align="right">
@@ -239,26 +130,13 @@ Table of Contents
 </div>
 
 ## Web开发
-[Springboot整合Swagger](https://www.pkslow.com/archives/springboot-swagger)
-
-
-
-[Springboot的Web应用中HTTP请求头RequestHeader过大](https://www.pkslow.com/archives/springboot-http-request-header-too-large)
-
-
 
 [Spring MVC获取HTTP请求头的两种方式](https://www.pkslow.com/archives/spring-mvc-get-headers)
 - Code: [/spring-boot/spring-data-jpa-audit](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/spring-data-jpa-audit)
 
 
-
 [在Spring WebFlux的任何地方获取Request对象](https://www.pkslow.com/archives/spring-webflux-get-request)
 - Code: [/spring-cloud/webflux-service](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/webflux-service)
-
-
-
-[用Springboot干掉IBM的WAS-为公司省点钱](https://www.pkslow.com/archives/springboot-replace-was)
-
 
 
 [在Spring Boot中整合Katharsis，来快速开发JSON API的Web应用](https://www.pkslow.com/archives/springboot-katharsis)
@@ -299,36 +177,11 @@ Table of Contents
 - Code: [/other/spring-batch/remote-partition-local](https://github.com/LarryDpk/pkslow-samples/tree/master/other/spring-batch/remote-partition-local)
 
 
-[大量数据也不在话下，Spring Batch并行处理四种模式初探](https://www.pkslow.com/archives/spring-batch-scaling)
-
-
-
-
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
 ## 其它
-
-[Springboot整合邮件服务](https://www.pkslow.com/archives/springboot-with-email)
-
-
-
-[Spring的定时任务注解@Scheduled原来如此简单](https://www.pkslow.com/archives/spring-scheduled-annotation)
-
-
-
-
-[单元测试中使用Spring的ReflectionTestUtils更方便](https://www.pkslow.com/archives/reflectiontestutils)
-
-
-
-
-[如何开发Springboot命令行非Web应用](https://www.pkslow.com/archives/springboot-commandline)
-
-
-
-
 
 [Spring Boot Actuator show the git and build info](https://www.pkslow.com/archives/springboot-actuator-git-build-info-en)
 - Code: [/spring-boot/springboot-common](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-common)
@@ -364,13 +217,6 @@ Table of Contents
 
 ## Spring Cloud Data Flow
 
-[Spring Cloud Data Flow初体验，以Local模式运行](https://www.pkslow.com/archives/spring-cloud-data-flow)
-
-
-
-[Spring Cloud Data Flow用Shell来操作，方便建立CICD](https://www.pkslow.com/archives/spring-cloud-dataflow-shell)
-
-
 
 [Spring Cloud Data Flow整合UAA使用外置数据库和API接口](https://www.pkslow.com/archives/spring-cloud-dataflow-uaa-api)
 - Code: [/spring-cloud/cloudfoundry-uaa-server](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/cloudfoundry-uaa-server)
@@ -399,17 +245,9 @@ Table of Contents
 
 
 
-[Integrate Spring Cloud Stream Binder with Kafka](https://www.pkslow.com/archives/spring-cloud-stream-binder-kafka-en)
-
-
 
 [整合Spring Cloud Stream Binder与Kafka进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-kafka)
 - Code: [/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-kafka](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-kafka)
-
-
-
-
-
 
 
 
@@ -419,20 +257,8 @@ Table of Contents
 
 ## 其它
 
-
-
-[使用Spring Cloud Config统一管理配置，别再到处放配置文件了](https://www.pkslow.com/archives/spring-cloud-config)
-
-
-
-[Spring Cloud Config在Spring Cloud Task中的应用，比Web应用更简单](https://www.pkslow.com/archives/spring-cloud-config-for-cloud-task)
-
-
-
 [Spring Cloud Gateway简单入门，强大的微服务网关](https://www.pkslow.com/archives/spring-cloud-gateway-introduction)
 - Code: [/spring-cloud/spring-cloud-gateway](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-gateway)
-
-
 
 
 [Spring Cloud服务发现组件Eureka](https://www.pkslow.com/archives/spring-cloud-eureka)
@@ -452,78 +278,8 @@ Table of Contents
 
 # Docker
 
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## Docker知识
-[Docker入门——理解Docker的核心概念](https://www.pkslow.com/archives/docker-concept)
-
-
-[打不死的小强，让Docker的容器自动重启](https://www.pkslow.com/archives/docker-container-auto-restart)
-
-
-[Dockerfile复制时如何保留子目录的结构](https://www.pkslow.com/archives/dockerfile-copy-keep-subdirectory-structure)
-
-
-[Dockerfile复制上级目录文件](https://www.pkslow.com/archives/dockerfile-copy-parent-files)
-
-
-[Docker这些none:none的镜像，难道就不配拥有名字吗](https://www.pkslow.com/archives/docker-none-none-images)
-
-
-[如何查看Docker容器环境变量，如何向容器传递环境变量](https://www.pkslow.com/archives/docker-env)
-
-
-
-[Docker因权限问题无法启动Springboot](https://www.pkslow.com/archives/docker-failed-to-start-springboot-due-to-permission)
-
-
-[一行代码的变更让我陷入无尽加班，Dockerfile的ENTRYPOINT的两种格式](https://www.pkslow.com/archives/docker-entrypoint-issue)
-
-
-[如何从Docker镜像中导出文件](https://www.pkslow.com/archives/extract-files-from-docker-image)
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## 其它
-
-[用Docker安装一个MongoDB最新版玩玩](https://www.pkslow.com/archives/start-mongodb-with-docker)
-
-
-[Docker安装Redis并介绍漂亮的可视化客户端进行操作](https://www.pkslow.com/archives/docker-redis)
-
-
-[Docker搭建代码检测平台SonarQube并检测maven项目](https://www.pkslow.com/archives/docker-sonarqube)
-
-
-[Maven一键部署Springboot到Docker仓库，为自动化做准备](https://www.pkslow.com/archives/docker-maven-plugin)
-
-
-[Springboot整合MongoDB的Docker开发，其它应用也类似](https://www.pkslow.com/archives/docker-springboot-mongo)
-
-
-[Docker可视化工具Portainer](https://www.pkslow.com/archives/docker-portainer)
-
-
-
-
-[Docker启动PostgreSQL并推荐几款连接工具](https://www.pkslow.com/archives/docker-install-postgres)
-
-
-[使用Harbor搭建Docker私有仓库](https://www.pkslow.com/archives/harbor-docker-registry)
-
-
 [Docker启动PostgreSQL时创建多个数据库](https://www.pkslow.com/archives/docker-postgresql-multiple-databases)
 - Code: [/docker/postgresql-multiple-databases](https://github.com/LarryDpk/pkslow-samples/tree/master/docker/postgresql-multiple-databases)
-
-
-[Docker安装Kong API Gateway并使用](https://www.pkslow.com/archives/kong-docker)
-
 
 
 [通过Docker启动DB2，并在Spring Boot整合DB2](https://www.pkslow.com/archives/db2)
@@ -542,74 +298,12 @@ Table of Contents
 
 # Kubernetes
 
-
-[用Helm部署Kubernetes应用，支持多环境部署与版本回滚](https://www.pkslow.com/archives/kubernetes-helm)
-
-
-[用Kubernetes部署Springboot或Nginx，也就一个文件的事](https://www.pkslow.com/archives/kubernetes-springboot-nginx-demo)
-
-
-[Kubectl设置默认命令空间namespace](https://www.pkslow.com/archives/kubernetes-default-namespace)
-
-
-[把Spring Cloud Data Flow部署在Kubernetes上，再跑个任务试试](https://www.pkslow.com/archives/spring-cloud-data-flow-on-kubernetes)
-
-
-[把H2数据库从jar包部署到Kubernetes，并解决Ingress不支持TCP的问题](https://www.pkslow.com/archives/kubernetes-h2-database)
-
-
-[Kubernetes用Helm安装Ingress并踩一下使用的坑](https://www.pkslow.com/archives/kubernetes-ingress)
-
-
-[Kubernetes备份所有集群中的资源为yaml文件](https://www.pkslow.com/archives/kubernetes-backup-all-yaml)
-
-
-[Spring Cloud Config整合Spring Cloud Kubernetes，在k8s上管理配置](https://www.pkslow.com/archives/spring-cloud-config-kubernetes)
-
-
-[如何把文件放进Docker或Kubernetes中，如何拷贝出来](https://www.pkslow.com/archives/docker-kubernetes-copy-files)
-
-
-[这么高颜值的Kubernetes管理工具Lens，难道还不能C位出道吗](https://www.pkslow.com/archives/kubernetes-lens)
-
-
-[Kubernetes的Jobs和CronJobs的使用](https://www.pkslow.com/archives/kubernetes-jobs-cronjobs)
-
-
-[Springboot整合Spring Cloud Kubernetes读取ConfigMap，支持自动刷新配置](https://www.pkslow.com/archives/spring-cloud-kubernetes-configmap)
-
-
-[被Spring坑了一把，查看源码终于解决了DataFlow部署K8s应用的问题](https://www.pkslow.com/archives/spring-cloud-dataflow-affinity)
-
-
-[Docker和Kubernetes常用命令（持续整理）](https://www.pkslow.com/archives/docker-kubernetes-frequently-used-commands)
-
-
-
-[2020年11月CKA新题考试心得体会](https://www.pkslow.com/archives/cka-exam)
-
-
-[How to pass the CKA exam](https://www.pkslow.com/archives/how-to-pass-cka-exam)
-
-
-[Mac为docker和kubectl添加自动命令补全](https://www.pkslow.com/archives/docker-kubectl-bash-completion-for-mac)
-
-
 [最好的Kubernetes客户端Java库fabric8io，快来自定义你的操作](https://www.pkslow.com/archives/kubernetes-client-fabric8io)
 - Code: [/kubernetes/kubernetes-client-fabric8io](https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/kubernetes-client-fabric8io)
 
 
-[CORS跨源资源共享概念及配置（Kubernetes Ingress和Spring Cloud Gateway）](https://www.pkslow.com/archives/http-cors)
-
-
 [Kubernetes ConfigMap详解，多种方式创建、多种方式使用](https://www.pkslow.com/archives/kubernetes-configmap)
 - Code: [/kubernetes/configmap-springboot](https://github.com/LarryDpk/pkslow-samples/tree/master/kubernetes/configmap-springboot)
-
-
-[解决Kubernetes以root用户mount volumn导致无写权限的问题](https://www.pkslow.com/archives/kubernetes-mount-volumn-as-none-root)
-
-
-[Kubernetes Pod中容器的Liveness、Readiness和Startup探针](https://www.pkslow.com/archives/kubernetes-liveness-readiness-startup-probes)
 
 
 [Kubernetes使用Keda进行弹性伸缩，更合理利用资源](https://www.pkslow.com/archives/keda)
@@ -621,35 +315,11 @@ Table of Contents
 
 
 
-
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
-
-## 安装指导
-[Mac上使用Docker Desktop启动Kubernetes，踩坑后终于搞掂](https://www.pkslow.com/archives/mac-kubernetes-docker-desktop)
-
-
-[在Ubuntu用Minikube安装Kubernetes](https://www.pkslow.com/archives/minikube-ubuntu)
-
-
-[在CentOS 8用Minikube安装Kubernetes](https://www.pkslow.com/archives/minikube-centos)
-
-
-[详细记录用kubeadm在Ubuntu上安装Kubernetes集群](https://www.pkslow.com/archives/install-kubernetes-on-ubuntu-with-kubeadm)
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
 
 # Cloud
-
-[在Ubuntu上安装OpenShift并使用](https://www.pkslow.com/archives/openshift)
-
-
 [K8ssandra入门-详细记录在Linux上部署K8ssandra到Kubernetes](https://www.pkslow.com/archives/k8ssandra)
 - Code: [/cloud/k8ssandra](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/k8ssandra)
 
@@ -668,45 +338,15 @@ Table of Contents
 - Code: [/cloud/dapr/dapr-springboot](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/dapr/dapr-springboot)
 
 
-[dapr入门与本地托管模式尝试](https://www.pkslow.com/archives/dapr-quickstart)
-
-
-
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
-## Istio
-[在Mac上安装Istio并使用，有丰富的监控Kiali、Grafana、Jaeger](https://www.pkslow.com/archives/istio-mac)
-
-
-[服务网格Istio入门-详细记录Kubernetes安装Istio并使用](https://www.pkslow.com/archives/istio)
-
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
 
 ## Google Cloud Platform
-[Mac安装Google Cloud SDK](https://www.pkslow.com/archives/mac-install-gcp-sdk)
-
-
-[GCP常用命令（gcloud、gsutil）](https://www.pkslow.com/archives/gcp-commands)
-
-
-[如何在GCE访问GKE中的TCP服务](https://www.pkslow.com/archives/gce-access-tcp-in-gke)
-
 
 [整合Spring Cloud Stream Binder与GCP Pubsub进行消息发送与接收](https://www.pkslow.com/archives/spring-cloud-stream-binder-pubsub)
 - Code: [/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-pubsub](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-cloud/spring-cloud-stream/spring-cloud-stream-binder-pubsub)
-
-
-[GCP Pubsub Introduction - so easy to use](https://www.pkslow.com/archives/gcp-pubsub-en)
-
-
-[GCP消息队列Pubsub详解，简单好用还不用自己运维](https://www.pkslow.com/archives/gcp-pubsub)
 
 
 [在GCP上创建Cloud SQL的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-cloudsql)
@@ -720,42 +360,8 @@ Table of Contents
 [在GCP上创建GCE的三种方式(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-gce)
 - Code: [/cloud/terraform/src/main/terraform/gcp/gce](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/gce)
 
-
-[Three ways to create GCE on GCP(Console,gcloud,Terraform)](https://www.pkslow.com/archives/create-gcp-gce-en)
-
-
-[通过gcloud创建Google Kubernetes Engine(GKE)并通过kubectl访问](https://www.pkslow.com/archives/create-gke-with-gcloud)
-
-
-[Provision the Google Kubernetes Engine(GKE) with gcloud and access with kubectl](https://www.pkslow.com/archives/create-gke-with-gcloud-en)
-
-
-[通过Google Cloud Storage(GCS)管理Terraform的状态State](https://www.pkslow.com/archives/terraform-gcs)
-
-
-[Manage Terraform State on Google Cloud Storage(GCS)](https://www.pkslow.com/archives/terraform-gcs-en)
-
-
 [通过Terraform创建GCP Pubsub](https://www.pkslow.com/archives/terraform-gcp-pubsub)
 - Code: [/cloud/terraform/src/main/terraform/gcp/pubsub](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/gcp/pubsub)
-
-
-[Manage GCP Pubsub with Terraform](https://www.pkslow.com/archives/terraform-gcp-pubsub-en)
-
-
-[初始化一个GCP项目并用gcloud访问操作](https://www.pkslow.com/archives/init-gcp-sdk)
-
-
-[How to initiate the GCP project and use gcloud to access](https://www.pkslow.com/archives/init-gcp-sdk-en)
-
-
-[在GCP的Kubernetes上安装dapr](https://www.pkslow.com/archives/dapr-kubernetes-mode)
-
-
-[让Apache Beam在GCP Cloud Dataflow上跑起来](https://www.pkslow.com/archives/apache-beam-dataflow)
-
-
-
 
 
 <div align="right">
@@ -788,31 +394,12 @@ Table of Contents
 
 ## Terraform
 
-[Terraform Module - extract and reuse](https://www.pkslow.com/archives/terraform-module-en)
-
-
-[Terraform常用命令](https://www.pkslow.com/archives/terraform-commands)
-
-
 [Terraform模块Module管理，聚合资源的抽取与复用](https://www.pkslow.com/archives/terraform-module)
 - Code: [/cloud/terraform/src/main/terraform/module-example](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/module-example)
-
-
-[Terraform状态State管理，让变更有记录](https://www.pkslow.com/archives/terraform-state)
-
-
-[Terraform插件Provider管理，搜索、定义、下载](https://www.pkslow.com/archives/terraform-provider)
-
 
 [Terraform入门教程，示例展示管理Docker和Kubernetes资源](https://www.pkslow.com/archives/terraform)
 - Code: [/cloud/terraform/src/main/terraform/docker](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/docker)
 - Code: [/cloud/terraform/src/main/terraform/kubernetes](https://github.com/LarryDpk/pkslow-samples/tree/master/cloud/terraform/src/main/terraform/kubernetes)
-
-
-[How to Pass the Terraform Associate Certificate Exam](https://www.pkslow.com/archives/terraform-associate-en)
-
-
-[如何通过Terraform Associate考试并获得证书](https://www.pkslow.com/archives/terraform-associate)
 
 
 
@@ -822,73 +409,6 @@ Table of Contents
 
 
 # Java基础
-
-[使用正则统计英文文章中的高频词汇](https://www.pkslow.com/archives/java-wordcount)
-
-
-[统计String单词数的三种方法](https://www.pkslow.com/archives/java-oneline-string-wordcount)
-
-
-[Java 8之条件断言Predicate的使用](https://www.pkslow.com/archives/java8-predicate)
-
-
-[Java双大括号{}的初始化](https://www.pkslow.com/archives/java-double-brace-initialization)
-
-
-[String.intern()原来还能这么用（原理与应用）](https://www.pkslow.com/archives/string-intern)
-
-
-
-[如何使用优秀的加密库Jasypt来保护你的敏感信息？](https://www.pkslow.com/archives/introduction-to-jasypt)
-
-
-[使用Thumbnailator生成缩略图（缩放、旋转、裁剪、水印）](https://www.pkslow.com/archives/java-thumbnailator)
-
-
-[判断String是否包含子串的四种方法及性能对比](https://www.pkslow.com/archives/string-contains-performance)
-
-
-[Mockito如何mock一条链式调用](https://www.pkslow.com/archives/mockito-chained-methods)
-
-
-[Mockito不能mock final类的解决办法](https://www.pkslow.com/archives/cannot-mock-final-class)
-
-
-[Java怎么从这四个位置读取配置文件Properties（普通文件系统-classpath-jar-URL）](https://www.pkslow.com/archives/java-load-properties)
-
-
-[Java创建对象的六种方法-权当记录一下](https://www.pkslow.com/archives/6-ways-to-create-object)
-
-
-[Maven整合JaCoCo和Sonar，看看你的测试写够了没](https://www.pkslow.com/archives/maven-jacoco-sonar)
-
-
-[让人又爱又恨的Lombok，到底该不该用](https://www.pkslow.com/archives/lombok-or-not)
-
-
-[Java从BufferedReader一行一行读取数据](https://www.pkslow.com/archives/java-read-bufferedreader)
-
-
-[Java从网上下载文件的几种方式](https://www.pkslow.com/archives/java-sava-a-file-from-internet)
-
-
-[通过Java上传下载AWS S3文件，并解决文件数量超过1000的问题](https://www.pkslow.com/archives/java-aws-s3)
-
-
-[Java处理csv文件](https://www.pkslow.com/archives/java-csv-files)
-
-
-[Java通过SFTP处理文件三种方法，支持密钥文件登陆](https://www.pkslow.com/archives/java-sftp)
-
-
-[Java连接Zookeeper](https://www.pkslow.com/archives/java-zookeeper)
-
-
-[如何安装Zookeeper的单机模式及集群模式](https://www.pkslow.com/archives/zookeeper-installation)
-
-
-[IntelliJ IDEA远程Debug Linux的Java程序，找问题不要只会看日志了](https://www.pkslow.com/archives/idea-remote-debug)
-
 
 [Protobuf入门与使用示例，高性能的序列化框架](https://www.pkslow.com/archives/protobuf-introduction)
 - Code: [/java-basic/protobuf](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/protobuf)
@@ -923,9 +443,6 @@ Table of Contents
 - Code: [/java-basic/jdk-cglib-proxy](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/jdk-cglib-proxy)
 
 
-[Mac Linux Windows等系统安装各版本JDK环境](https://www.pkslow.com/archives/install-jdk)
-
-
 [Java多种方法实现等待所有子线程完成再继续执行](https://www.pkslow.com/archives/wait-for-threads-to-finish)
 
 - Code: [java-basic/wait-for-threads-to-finish](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/wait-for-threads-to-finish)
@@ -947,175 +464,8 @@ Table of Contents
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
-## 集合类
-[如何创建和初始化一个HashMap？](https://www.pkslow.com/archives/java-initialize-hashmap)
-
-
-[一图说尽排序，一文细说Sorting(Array、List、Stream的排序)](https://www.pkslow.com/archives/java-sorting)
-
-
-[Java 8中map()与flatMap()在Optional和Stream中的区别](https://www.pkslow.com/archives/java-difference-map-and-flatmap)
-
-
-[Java 8之例说Stream的合并](https://www.pkslow.com/archives/java8-merge-stream)
-
-
-[Java 8基本类型的Stream](https://www.pkslow.com/archives/java8-primitive-streams)
-
-
-[Java 8 Streams的简单介绍与入门](https://www.pkslow.com/archives/java8-stream-introduction)
-
-
-[HashMap性能很好？问过我EnumMap没](https://www.pkslow.com/archives/introduction-to-enummap)
-
-
-[通过Value获取Map中的键值Key的四种方法](https://www.pkslow.com/archives/map-fetch-key-by-value)
-
-
-[四类方法删除List里面的所有null值](https://www.pkslow.com/archives/list-remove-null)
-
-
-[各种集合类的合并(数组、List、Set、Map)](https://www.pkslow.com/archives/collections-merge)
-
-
-[ArrayList与HashSet的contains方法性能比较（JMH性能测试）](https://www.pkslow.com/archives/arraylist-hashset-contains-compare)
-
-
-[好用的Arrays.asList也有这三个坑](https://www.pkslow.com/archives/arraylist-pitfall)
-
-
-[图说Stream中的skip()和limit()方法及组合使用](https://www.pkslow.com/archives/stream-skip-limit)
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-
-# 其它技术
-
-[记一次上线前的紧急定位与修复-献上九条小经验](https://www.pkslow.com/archives/find-bugs-at-20191113)
-
-
-[HTTPS之密钥知识与密钥工具Keytool和Keystore-Explorer](https://www.pkslow.com/archives/sslkey-knowledge-keytools)
-
-
-[nginx开启ssl并把http重定向到https的两种方式](https://www.pkslow.com/archives/nginx-ssl-and-redirect-http)
-
-
-[使用ngrok实现内网穿透以便外网访问](https://www.pkslow.com/archives/mac-ngrok)
-
-
-[一键下载网页所有图片，把美丽存下来](https://www.pkslow.com/archives/download-all-pic-on-webpage)
-
-
-[防止Google重定向到其它地区](https://www.pkslow.com/archives/google-no-country-redirection)
-
-
-[如何部署ReactJs打包后的build目录文件](https://www.pkslow.com/archives/reactjs-deploy-build-folder)
-
-
-[不带www访问网站失败，加条解析即可](https://www.pkslow.com/archives/fail-access-website-without-www)
-
-
-[搭建Go语言开发环境](https://www.pkslow.com/archives/go-setup-env)
-
-
-[用org.codehaus.mojo的插件exec-maven-plugin执行程序，实在是太方便了](https://www.pkslow.com/archives/codehaus-mojo-exec-maven-plugin)
-
-
-[在Jenkins pipeline中无法执行npm，报错Cannot run program npm](https://www.pkslow.com/archives/jenkins-cannot-run-npm)
-
-
-[常用好用软件整理](https://www.pkslow.com/archives/favorite-software-list)
-
-
-[解决ssh连接长时间不操作断开连接的问题（client_loop/ send disconnect/ Broken pipe）](https://www.pkslow.com/archives/ssh-keep-alive)
-
-
-[使用Go module和GoLand初始化一个Go项目](https://www.pkslow.com/archives/go-create-project)
-
-
-[调试Http Basic认证，用base64加密解密](https://www.pkslow.com/archives/http-basic-authentication)
-
-
-[南瓜慢说文章汇总](https://www.pkslow.com/archives/all)
-
-[HTTP Cookies知识-查看、发送、获取、返回](https://www.pkslow.com/archives/http-cookies)
-
-
-[IT资源收集整理](https://www.pkslow.com/archives/it-resources)
-
-[超级好用的轻量级JSON处理命令jq](https://www.pkslow.com/archives/jq)
-
-
-[设计模式整理与总结、心得与体会](https://www.pkslow.com/archives/design-patterns)
-
-
-[git常用命令](https://www.pkslow.com/archives/git-commands)
-
-
-[生成GitHub README的markdown导航目录](https://www.pkslow.com/archives/gh-md-toc)
-
-
-[GitHub如何在README中返回顶部](https://www.pkslow.com/archives/github-readme-back-to-top)
-
-
-[如何让Bing搜索引擎收录你的网站](https://www.pkslow.com/archives/bing-add-website)
-
-
-[注册OpenAI与小玩一下ChatGPT](https://www.pkslow.com/archives/try-openai-chatgpt)
-
-
-[Sign Up OpenAI and try on ChatGPT](https://www.pkslow.com/archives/try-openai-chatgpt-en)
-
-
-
-[将GitHub代码同步到Gitee上，并同步更新](https://www.pkslow.com/archives/sync-github-gitee)
-
-
-[Synchronize GitHub with Gitee and push code to muliple repositories](https://www.pkslow.com/archives/sync-github-gitee-en)
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## Mac
-
-[Mac国内加速GitHub访问的方法](https://www.pkslow.com/archives/mac-github-speed-up)
-
-[Mac uses pstree to show the process tree](https://www.pkslow.com/archives/mac-pstree-en)
-
-
-[Mac通过命令pstree显示进程树](https://www.pkslow.com/archives/mac-pstree)
-
-
-[Mac触摸板与鼠标滚动方向独立设置](https://www.pkslow.com/archives/scroll-reverse-for-mac)
-
-
-[Mac让ssh通过代理来连接服务器](https://www.pkslow.com/archives/mac-ssh-proxy)
-
-
-[没有Esc键的Macbook Pro怎么用vim](https://www.pkslow.com/archives/mac-no-esc)
-
-
-[Mac查看端口占用](https://www.pkslow.com/archives/mac-check-port)
-
-[Mac以树形结构显示目录](https://www.pkslow.com/archives/mac-tree-show-dir)
-
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
 
 ## Python
-
-[如何在IntelliJ IDEA设置Python开发环境](https://www.pkslow.com/archives/idea-python-support)
-
 
 [用Python做了一个广东疫情新增病例动态视频](https://www.pkslow.com/archives/python-covid-19-guangdong)
 - Code: [/python/src/main/python/covid-19-Guangdong](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/covid-19-Guangdong)
@@ -1129,58 +479,12 @@ Table of Contents
 - Code: [/python/src/main/python/cuda](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/cuda)
 
 
-
-
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
-## Linux
-
-[Ubuntu玩机记录，让我破电脑又飞起来了](https://www.pkslow.com/archives/ubuntu-tutorial)
-
-
-[vim常用命令，linux必备](https://www.pkslow.com/archives/vim-commands)
-
-
-[Linux常用命令整理](https://www.pkslow.com/archives/linux-commands)
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## App开发
-[打包iOS App并上架到TestFlight测试](https://www.pkslow.com/archives/ios-build-and-testflight)
-
-
-[iOS真机调试包](https://www.pkslow.com/archives/ios-device-support)
-
-
-[用Transporter上传iOS App，大大降低出错概率](https://www.pkslow.com/archives/upload-ios-app-with-transporter)
-
-
-[Pkslow Timeline is release(南瓜时线发布啦)](https://www.pkslow.com/archives/pkslow-timeline)
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
 
 ## 数据库
-[2019年MongoDB中文社区广州大会，干货满满的分享活动](https://www.pkslow.com/archives/mongodb-meeting-in-guangzhou)
-
-
-[MongoDB开发中遇到的问题记录](https://www.pkslow.com/archives/mongodb-issues-in-development)
-
-
-[如何安放你的大文件，MongoDB GridFS可以帮助你](https://www.pkslow.com/archives/mongo-gridfs-intro)
-
-
-[Oracle SQLPlus导出数据到csv文件](https://www.pkslow.com/archives/sqlplus-export-csv)
-
-
-[Oracle用decode函数或CASE-WHEN实现自定义排序](https://www.pkslow.com/archives/oracle-order-with-decode-and-case-when)
-
 
 [How to partition the big table in PostgreSQL - Range List Hash](https://www.pkslow.com/archives/postgresql-partitioning-en)
 - Code: [/other/postgresql](https://github.com/LarryDpk/pkslow-samples/tree/master/other/postgresql)
@@ -1198,145 +502,6 @@ Table of Contents
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
-## IDEA
-
-[IDEA failed to import the class due to untrusted project](https://www.pkslow.com/archives/idea-untrusted-project-en)
-
-
-[IDEA因Untrusted project无法导入jar包解决方法](https://www.pkslow.com/archives/idea-untrusted-project)
-
-
-[Lombok在IntelliJ IDEA下出现cannot find symbol问题的解决](https://www.pkslow.com/archives/idea-lombok-cannot-find-symbol)
-
-
-[IDEA启动Springboot但AOP失效](https://www.pkslow.com/archives/idea-fail-to-trigger-spring-aop)
-
-
-[如何在Intellij IDEA运行和调试JavaScript](https://www.pkslow.com/archives/idea-run-js)
-
-
-[How to run and debug the JavaScript in Intellij IDEA](https://www.pkslow.com/archives/idea-run-js-en)
-
-
-[Intellij IDEA同一个项目（窗口）多个代码仓库](https://www.pkslow.com/archives/idea-multiple-repo)
-
-
-[真香！通过开源项目免费获取JetBrains全家桶License](https://www.pkslow.com/archives/jetbrains-open-source-license)
-
-
-[Intellij IDEA运行报Command line is too long的解决办法](https://www.pkslow.com/archives/idea-error-command-line-too-long)
-
-
-[Intellij IDEA利用正则替换，并保留匹配结果](https://www.pkslow.com/archives/idea-regex-replace-with-matched-value)
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## VSCode
-[好用的VSCode的SFTP插件](https://www.pkslow.com/archives/vscode-sftp)
-
-
-[VSCode的REST Client指南，超好用的HTTP客户端工具](https://www.pkslow.com/archives/vscode-rest-client)
-
-
-[Visual Studio Code - vscode使用小心得](https://www.pkslow.com/archives/vscode)
-
-
-[VSCode巧妙使用正则替换提高效率](https://www.pkslow.com/archives/vscode-replace)
-
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-# 生活
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## 生活杂事
-[如何制定切实可行的计划并好好执行——2020年，我不想再碌碌无为](https://www.pkslow.com/archives/how-to-make-a-good-plan)
-
-
-[2020，分手快乐；2021，且行且歌](https://www.pkslow.com/archives/from-2020-to-2021)
-
-
-[自我鼓励墙——生命不息，奋斗不止](https://www.pkslow.com/archives/self-motivate)
-
-
-[删库吧，Bug浪——我们在同一家摸鱼的公司](https://www.pkslow.com/archives/write-bugs)
-
-
-[IT界的名言名语](https://www.pkslow.com/archives/it-phrases)
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## 旅行
-[印尼之行-龙目岛和科莫多岛9日自由行旅婚](https://www.pkslow.com/archives/indonesia-lombok-komodo)
-
-
-[黄山徽州五日行-最美风景与攻略献给你](https://www.pkslow.com/archives/huangshan-2020)
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## 育儿
-[最高频的母婴九大件，陪我度过艰难的第一年](https://www.pkslow.com/archives/baby-products-top9)
-
-[在广州如何带宝宝打疫苗-实战经验分享](https://www.pkslow.com/archives/baby-vaccines-in-guangzhou)
-
-[广州人才引进，本科学历最好的入户方式](https://www.pkslow.com/archives/guangzhou-hukou)
-
-
-[在广州给婴儿办理少儿医保](https://www.pkslow.com/archives/gz-yibao)
-
-
-[二胎随想，没什么大不了的](https://www.pkslow.com/archives/two-children)
-
-
-
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
-
-## 诗词歌赋
-
-[送友人](https://www.pkslow.com/archives/farewell-to-friends)
-
-
-
-[梦游无名山](https://www.pkslow.com/archives/dream-of-unknown-mountain)
-
-
-[哀友文-怀念逝去挚友](https://www.pkslow.com/archives/mourn-my-friends-death)
-
-
-[北征赋——献礼国庆60周年](https://www.pkslow.com/archives/go-north)
-
-
-[寒鸦](https://www.pkslow.com/archives/poor-crow)
-
-
-
-[出Bug表-假如诸葛亮是程序员](https://www.pkslow.com/archives/lets-write-bugs)
-
-
-<div align="right">
-    <b><a href="#pkslow-samples">↥ back to top</a></b>
-</div>
 
 # 状态
 
