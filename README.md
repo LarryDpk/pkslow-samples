@@ -200,7 +200,9 @@ mvn clean install
 [Springboot整合AOP和注解，实现丰富的切面功能](https://www.pkslow.com/archives/springboot-aspectj-annotation)
 - Code: [/spring-boot/springboot-aspectj](https://github.com/LarryDpk/pkslow-samples/tree/master/spring-boot/springboot-aspectj)
 
-
+[Spring Boot Integration with Google Bard](https://www.pkslow.com/archives/spring-boot-google-bard)
+[Spring Boot整合Google Bard - Web接口访问Google AI聊天机器人](https://www.pkslow.com/archives/spring-boot-google-bard-cn)
+- Code: [spring-boot/spring-boot-google-bard](https://github.com/LarryDpk/pkslow-samples/blob/master/spring-boot/spring-boot-google-bard)
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>

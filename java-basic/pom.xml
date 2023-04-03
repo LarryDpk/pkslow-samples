@@ -24,6 +24,7 @@
         <module>jdk-cglib-proxy</module>
         <module>wait-for-threads-to-finish</module>
         <module>runnable-vs-callable</module>
+        <module>download-file-from-internet</module>
     </modules>
 
 
