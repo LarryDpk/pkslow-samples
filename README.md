@@ -468,12 +468,17 @@ mvn clean install
 - Code: [java-basic/download-file-from-internet](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/download-file-from-internet)
 
 
+[How to Install Zookeeper and Kafka Cluster](https://www.pkslow.com/archives/install-zookeeper-and-kafka-cluster)
+
+- Code: [other/install-kafka-cluster](https://github.com/LarryDpk/pkslow-samples/tree/master/other/install-kafka-cluster)
+
+
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
 
 
-## Python
+# Python
 
 [用Python做了一个广东疫情新增病例动态视频](https://www.pkslow.com/archives/python-covid-19-guangdong)
 - Code: [/python/src/main/python/covid-19-Guangdong](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/covid-19-Guangdong)
@@ -492,7 +497,7 @@ mvn clean install
 </div>
 
 
-## 数据库
+# 数据库
 
 [How to partition the big table in PostgreSQL - Range List Hash](https://www.pkslow.com/archives/postgresql-partitioning-en)
 - Code: [/other/postgresql](https://github.com/LarryDpk/pkslow-samples/tree/master/other/postgresql)
