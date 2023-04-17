@@ -20,6 +20,7 @@
     <modules>
         <module>postgresql</module>
         <module>spring-batch</module>
+        <module>install-kafka-cluster</module>
     </modules>
 
 </project>

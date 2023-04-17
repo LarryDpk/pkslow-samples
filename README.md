@@ -462,6 +462,12 @@ mvn clean install
 - Code: [java-basic/runnable-vs-callable](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/runnable-vs-callable)
 
 
+[Multiple Ways to Download Files from Internet in Java](https://www.pkslow.com/archives/java-sava-a-file-from-internet)
+[Java从网上下载文件的几种方式](https://www.pkslow.com/archives/java-sava-a-file-from-internet-cn)
+
+- Code: [java-basic/download-file-from-internet](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/download-file-from-internet)
+
+
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>

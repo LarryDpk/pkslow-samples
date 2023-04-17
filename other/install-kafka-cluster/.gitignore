@@ -1,0 +1,9 @@
+apache-zookeeper-3.7.1-bin*
+src/main/zookeeper/zk*/version-2
+zookeeper_server.pid
+
+
+src/main/kafka/**/kafka-logs
+kafka_2.13-3.4.0*
+
+
