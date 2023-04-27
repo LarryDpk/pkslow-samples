@@ -25,6 +25,8 @@
         <module>wait-for-threads-to-finish</module>
         <module>runnable-vs-callable</module>
         <module>download-file-from-internet</module>
+        <module>sorting-algorithm</module>
+        <module>java-thumbnailator</module>
     </modules>
 
 
