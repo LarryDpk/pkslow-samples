@@ -473,6 +473,11 @@ mvn clean install
 - Code: [other/install-kafka-cluster](https://github.com/LarryDpk/pkslow-samples/tree/master/other/install-kafka-cluster)
 
 
+[使用Thumbnailator生成缩略图（缩放、旋转、裁剪、水印）](https://www.pkslow.com/archives/java-thumbnailator)
+
+- Code: [java-basic/download-file-from-internet](https://github.com/LarryDpk/pkslow-samples/tree/master/java-basic/java-thumbnailator)
+
+
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
 </div>
