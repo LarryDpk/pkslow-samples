@@ -1,8 +1,8 @@
 package com.pkslow.springboot.web;
 
-import com.pkslow.ai.Answer;
-import com.pkslow.ai.AnswerStatus;
 import com.pkslow.ai.GoogleBardClient;
+import com.pkslow.ai.domain.Answer;
+import com.pkslow.ai.domain.AnswerStatus;
 import com.pkslow.springboot.web.dto.BardAnswer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

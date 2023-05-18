@@ -1,6 +1,6 @@
 package com.pkslow.springboot;
 
-import com.pkslow.ai.NetworkUtils;
+import com.pkslow.ai.util.NetworkUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
