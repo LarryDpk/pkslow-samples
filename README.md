@@ -496,6 +496,16 @@ mvn clean install
 [用GPU来运行Python代码](https://www.pkslow.com/archives/run-python-with-gpu)
 - Code: [/python/src/main/python/cuda](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/cuda)
 
+[Use Python to Build a Google Bard Chatbot Client Locally](https://www.pkslow.com/archives/google-bard-python-chatbot)
+[用Python基于Google Bard做一个交互式的聊天机器人](https://www.pkslow.com/archives/google-bard-python-chatbot-cn)
+- Code: [python/google-bard-python-chatbot](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/google-bard-python-chatbot)
+
+
+[Google Cloud Platform Tutorial](https://www.pkslow.com/archives/gcp)
+- Code: [python/apache-beam](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/apache-beam)
+- Code: [python/spark](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/spark)
+
+
 
 <div align="right">
     <b><a href="#pkslow-samples">↥ back to top</a></b>
