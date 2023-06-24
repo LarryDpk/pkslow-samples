@@ -504,6 +504,7 @@ mvn clean install
 [Google Cloud Platform Tutorial](https://www.pkslow.com/archives/gcp)
 - Code: [python/apache-beam](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/apache-beam)
 - Code: [python/spark](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/spark)
+- Code: [python/airflow](https://github.com/LarryDpk/pkslow-samples/tree/master/python/src/main/python/airflow)
 
 
 
