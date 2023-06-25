@@ -37,6 +37,7 @@
 #     - strings
 
 import argparse
+import datetime
 import logging
 import re
 
@@ -49,6 +50,7 @@ from apache_beam.options.pipeline_options import SetupOptions
 
 class WordExtractingDoFn(beam.DoFn):
     """Parse each line of input text into words."""
+
     def process(self, element):
         """Returns an iterator over the words of this element.
 
@@ -85,7 +87,6 @@ def run(argv=None, save_main_session=True):
 
     # The pipeline will be run on exiting the with block.
     with beam.Pipeline(options=pipeline_options) as p:
-
         # Read the text file[pattern] into a PCollection.
         lines = p | 'Read' >> ReadFromText(known_args.input)
 
@@ -103,7 +104,9 @@ def run(argv=None, save_main_session=True):
 
         # Write the output using a "Write" transform that has side effects.
         # pylint: disable=expression-not-assigned
-        output | 'Write' >> WriteToText(known_args.output)
+        t = datetime.datetime.now()
+        output_folder = known_args.output + '/' + t.strftime('%Y%m%d_%H.%M.%S')
+        output | 'Write' >> WriteToText(output_folder)
 
 
 if __name__ == '__main__':
