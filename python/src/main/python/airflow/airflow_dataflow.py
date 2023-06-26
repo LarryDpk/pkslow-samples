@@ -29,6 +29,7 @@ dag = DAG(
 dataflow_task = BeamRunPythonPipelineOperator(
     task_id='pkslow_dataflow_job',
     py_file='gs://us-central1-pkslow-composer-d7602fc1-bucket/py_scripts/apache_beam_word_count.py',
+    runner='DataFlowRunner',
     pipeline_options={
         'input': 'gs://dataflow-samples/shakespeare/kinglear.txt',
         'output': 'gs://pkslow-gcp-dataflow/results/outputs',
