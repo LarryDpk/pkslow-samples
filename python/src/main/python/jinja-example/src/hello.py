@@ -6,7 +6,7 @@ def render(name, website):
     current_path = pathlib.Path(__file__).parent.parent.resolve().__str__()
     print(current_path)
 
-    file = open(current_path + '/templates/hello.md', 'r')
+    file = open(current_path + '/templates/hello.md.jinja2', 'r')
     content = file.read()
     file.close()
     template = Template(content)
