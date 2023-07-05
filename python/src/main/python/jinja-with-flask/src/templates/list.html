@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>The skill list</h2>
+<ul>
+    {% for skill in skills%}
+    <li>{{skill}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
