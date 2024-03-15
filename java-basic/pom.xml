@@ -27,6 +27,7 @@
         <module>download-file-from-internet</module>
         <module>sorting-algorithm</module>
         <module>java-thumbnailator</module>
+        <module>ssltest</module>
     </modules>
 
 
