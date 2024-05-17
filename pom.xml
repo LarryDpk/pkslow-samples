@@ -18,6 +18,7 @@
         <module>other</module>
         <module>bigdata</module>
         <module>python</module>
+        <module>shell</module>
     </modules>
 
     <properties>
