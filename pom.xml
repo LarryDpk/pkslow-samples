@@ -19,6 +19,7 @@
         <module>bigdata</module>
         <module>python</module>
         <module>shell</module>
+        <module>js</module>
     </modules>
 
     <properties>
