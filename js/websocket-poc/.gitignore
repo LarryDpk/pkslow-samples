@@ -36,8 +36,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
-
-.nyc_output
-package-lock.json
-node_modules

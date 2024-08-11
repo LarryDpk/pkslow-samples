@@ -5,16 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.pkslow</groupId>
-        <artifactId>pkslow-samples</artifactId>
+        <artifactId>js</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>js</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>node-ut</module>
-        <module>websocket-poc</module>
-    </modules>
+    <groupId>com.pkslow.js</groupId>
+    <artifactId>websocket-poc</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
