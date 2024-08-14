@@ -22,6 +22,7 @@
         <module>spring-batch</module>
         <module>install-kafka-cluster</module>
         <module>jmeter</module>
+        <module>kafka-ssl-security</module>
     </modules>
 
 </project>
