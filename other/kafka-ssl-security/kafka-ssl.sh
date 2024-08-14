@@ -80,3 +80,10 @@ keytool -importcert -alias ca-cert -file $CA_CERT -keystore $CLIENT_TRUSTSTORE \
   -storepass $TRUSTSTORE_PASSWORD -noprompt
 
 echo "SSL certificates generation completed!"
+
+
+keytool -importkeystore -srckeystore kafka.client.keystore.jks \
+  -destkeystore kafka.client.keystore.p12 -deststoretype PKCS12 \
+  -srcstorepass $KEYSTORE_PASSWORD -deststorepass $KEYSTORE_PASSWORD
+
+openssl pkcs12 -in kafka.client.keystore.p12 -nocerts -out kafka-client-key.pem -nodes -passin pass:$KEYSTORE_PASSWORD
