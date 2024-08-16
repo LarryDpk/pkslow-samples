@@ -39,13 +39,13 @@ describe('Google Search UI Test', function() {
 
         // Find the search box using its name attribute and type a query
         const searchBox = await driver.findElement(By.name('q'));
-        await searchBox.sendKeys('Selenium WebDriver', Key.RETURN);
+        await searchBox.sendKeys('pkslow larry', Key.RETURN);
 
         // Wait for the results page to load and display the results
-        await driver.wait(until.titleContains('Selenium WebDriver'), 10000);
+        await driver.wait(until.titleContains('pkslow larry'), 10000);
 
         // Verify that the title contains the search term
         const title = await driver.getTitle();
-        expect(title).to.include('Selenium WebDriver');
+        expect(title).to.include('pkslow larry');
     });
 });
