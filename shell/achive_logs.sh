@@ -7,6 +7,14 @@ LOG_FILE="/opt/larry/logs_archive.log"
 RETENTION_DAYS=10  # Default retention days
 REMOVE_ONLY=false
 
+
+# Function to log messages
+log_message() {
+  current_time=$(date "+%Y-%m-%d %H:%M:%S")
+  echo "[$current_time] $1"
+  echo "[$current_time] $1" >> "$LOG_FILE"
+}
+
 # Parse arguments
 while [[ "$#" -gt 0 ]]; do
     case $1 in
