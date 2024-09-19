@@ -12,7 +12,8 @@
     <artifactId>java-basic</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>pl-pojo-tester</module>
+<!--        Skip as pojo only support java 8-->
+<!--        <module>pl-pojo-tester</module>-->
         <module>java-proxy</module>
         <module>protobuf</module>
         <module>influxdb</module>
