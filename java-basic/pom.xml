@@ -29,6 +29,7 @@
         <module>sorting-algorithm</module>
         <module>java-thumbnailator</module>
         <module>ssltest</module>
+        <module>file-to-text</module>
     </modules>
 
 
