@@ -28,6 +28,7 @@
         <module>spring-boot-katharsis</module>
         <module>springboot-aspectj</module>
         <module>spring-boot-google-bard</module>
+        <module>springboot-db2kafka</module>
     </modules>
 
 
