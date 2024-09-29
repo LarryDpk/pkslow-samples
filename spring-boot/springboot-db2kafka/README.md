@@ -53,3 +53,11 @@ INSERT INTO public.pkslow_user (id, age, name) VALUES (21, (random() * 100)::int
 
 
 ```
+
+```shell
+# check data on Kafka
+$PROJECT_HOME/other/install-kafka-cluster/src/main/kafka/kafka_2.13-3.4.0/bin/kafka-console-consumer.sh \
+--bootstrap-server localhost:9092 --topic pkslow-user --from-beginning
+
+```
+

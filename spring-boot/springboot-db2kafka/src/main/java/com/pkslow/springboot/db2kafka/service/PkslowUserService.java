@@ -12,9 +12,11 @@ import java.util.List;
 @Slf4j
 public class PkslowUserService {
     private final PkslowUserRepository pkslowUserRepository;
+    private final KafkaProducerService kafkaProducerService;
 
-    public PkslowUserService(PkslowUserRepository pkslowUserRepository) {
+    public PkslowUserService(PkslowUserRepository pkslowUserRepository, KafkaProducerService kafkaProducerService) {
         this.pkslowUserRepository = pkslowUserRepository;
+        this.kafkaProducerService = kafkaProducerService;
     }
 
     public void save(PkslowUser pkslowUser) {
@@ -34,7 +36,10 @@ public class PkslowUserService {
     public void publishToKafka() {
         List<PkslowUser> pkslowUsers = pkslowUserRepository.findAll();
         pkslowUsers.forEach(pkslowUser -> {
-            log.info("Publish to Kafka: {}", pkslowUser);
+            log.info("Start publishing to Kafka: {}", pkslowUser);
+            kafkaProducerService.sendMessage(pkslowUser.toString());
+            log.info("End publishing to Kafka: {}", pkslowUser);
+
         });
     }
 }
