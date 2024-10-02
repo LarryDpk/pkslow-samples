@@ -21,3 +21,4 @@ uaa.war
 .terraform.lock.hcl
 terraform.tfstate*
 /java-basic/java-thumbnailator/output/
+.venv
