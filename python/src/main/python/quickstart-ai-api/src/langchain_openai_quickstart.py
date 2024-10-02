@@ -24,3 +24,7 @@ print(result_template)
 result = model.invoke(result_template)
 print(result.content)
 
+# chain example
+chain = prompt_template | model
+result = chain.invoke({"language": "Chinese", "text": "Hi, Good morning! How are you?"})
+print(result.content)
