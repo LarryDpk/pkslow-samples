@@ -28,6 +28,7 @@ mvn clean install
 - Cloud
 - Big Data
 - Python
+- AI
 
 
 可以通过以下命令构建项目：
