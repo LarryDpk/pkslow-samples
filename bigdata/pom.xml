@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>apache-beam</module>
+        <module>flink-csv-to-parquet</module>
     </modules>
 
     <properties>
