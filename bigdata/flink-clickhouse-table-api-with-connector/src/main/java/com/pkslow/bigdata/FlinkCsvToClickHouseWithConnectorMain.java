@@ -4,7 +4,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.table.api.EnvironmentSettings;
 import org.apache.flink.table.api.TableEnvironment;
 
-public class FlinkCsvToClickHouse {
+public class FlinkCsvToClickHouseWithConnectorMain {
     public static void main(String[] args) {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
@@ -38,6 +38,27 @@ public class FlinkCsvToClickHouse {
 
         String insertSQL = "INSERT INTO print_table SELECT * FROM csv_source";
         tableEnv.executeSql(insertSQL);
+
+        tableEnv.executeSql(
+                "CREATE TABLE clickhouse_sink (\n" +
+                        "    id BIGINT,\n" +
+                        "    name STRING,\n" +
+                        "    age INT\n" +
+                        ") WITH (\n" +
+                        "    'connector' = 'clickhouse',\n" +
+                        "    'url' = 'clickhouse://localhost:8123',\n" +
+                        "    'database-name' = 'flink',\n" +
+                        "    'table-name' = 'persons',\n" +
+//                        "    'driver' = 'com.clickhouse.jdbc.ClickHouseDriver',\n" +
+                        "    'username' = 'larry',\n" +
+                        "    'password' = 'larrydpk'\n" +
+                        ")"
+        );
+
+        tableEnv.executeSql(
+                "INSERT INTO clickhouse_sink\n" +
+                        "SELECT id, name, age FROM csv_source"
+        );
 
 
 
