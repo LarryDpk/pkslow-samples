@@ -60,8 +60,5 @@ public class FlinkCsvToClickHouseWithConnectorMain {
                         "SELECT id, name, age FROM csv_source"
         );
 
-
-
-
     }
 }
