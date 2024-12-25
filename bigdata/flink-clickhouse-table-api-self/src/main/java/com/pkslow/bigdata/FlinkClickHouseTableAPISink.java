@@ -13,6 +13,11 @@ public class FlinkClickHouseTableAPISink {
                 .build();
         TableEnvironment tableEnv = TableEnvironment.create(settings);
 
+//        csvToCH(tableEnv);
+        clickHouseToCH(tableEnv);
+    }
+
+    private static void csvToCH(TableEnvironment tableEnv) {
         String sourceDDL = "CREATE TABLE csv_source (\n" +
                 "    id INT,\n" +
                 "    name STRING,\n" +
@@ -57,6 +62,44 @@ public class FlinkClickHouseTableAPISink {
         tableEnv.executeSql(
                 "INSERT INTO clickhouse_sink\n" +
                         "SELECT id, name, age FROM csv_source"
+        );
+    }
+
+    private static void clickHouseToCH(TableEnvironment tableEnv) {
+
+        tableEnv.executeSql(
+                "CREATE TABLE clickhouse_source (\n" +
+                        "    id BIGINT,\n" +
+                        "    name STRING,\n" +
+                        "    age INT\n" +
+                        ") WITH (\n" +
+                        "    'connector' = 'jdbc',\n" +
+                        "    'url' = 'jdbc:clickhouse://localhost:8123/flink',\n" +
+                        "    'table-name' = '(SELECT t.* FROM flink.persons t where t.age < 18) as persons',\n" +
+//                        "    'driver' = 'com.clickhouse.jdbc.ClickHouseDriver',\n" +
+                        "    'username' = 'larry',\n" +
+                        "    'password' = 'larrydpk'\n" +
+                        ")"
+        );
+
+        tableEnv.executeSql(
+                "CREATE TABLE clickhouse_sink (\n" +
+                        "    id BIGINT,\n" +
+                        "    name STRING,\n" +
+                        "    age INT\n" +
+                        ") WITH (\n" +
+                        "    'connector' = 'jdbc',\n" +
+                        "    'url' = 'jdbc:clickhouse://localhost:8123/flink',\n" +
+                        "    'table-name' = 'persons_target',\n" +
+//                        "    'driver' = 'com.clickhouse.jdbc.ClickHouseDriver',\n" +
+                        "    'username' = 'larry',\n" +
+                        "    'password' = 'larrydpk'\n" +
+                        ")"
+        );
+
+        tableEnv.executeSql(
+                "INSERT INTO clickhouse_sink\n" +
+                        "SELECT id, name, age FROM clickhouse_source"
         );
     }
 }
