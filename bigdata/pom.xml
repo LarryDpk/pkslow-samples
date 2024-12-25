@@ -15,6 +15,7 @@
         <module>apache-beam</module>
         <module>flink-csv-to-parquet</module>
         <module>flink-clickhouse-table-api-with-connector</module>
+        <module>flink-clickhouse-table-api-self</module>
     </modules>
 
     <properties>
