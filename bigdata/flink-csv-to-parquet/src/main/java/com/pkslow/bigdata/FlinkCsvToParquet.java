@@ -50,6 +50,18 @@ public class FlinkCsvToParquet {
         String insertSQL = "INSERT INTO parquet_sink SELECT * FROM csv_source";
         tableEnv.executeSql(insertSQL);
 
+        String printSink = "CREATE TABLE print_sink (\n" +
+                "    id INT,\n" +
+                "    name STRING,\n" +
+                "    age INT\n" +
+                ") WITH (\n" +
+                "    'connector' = 'print',\n" +
+                "    'print-identifier' = '[Sink data to console]'\n" +
+                ")";
+
+        tableEnv.executeSql(printSink);
+        tableEnv.executeSql("INSERT INTO print_sink SELECT * FROM csv_source");
+
         // Note: In Table API, executing DDL and DML statements triggers the job.
         // No need to call env.execute()
     }
